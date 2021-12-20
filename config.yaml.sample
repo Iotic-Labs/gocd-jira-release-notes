@@ -1,0 +1,7 @@
+port: ":80"
+gocdUrl: https://your-gocd-server-url
+# gocdApiKey: # NOTE: secret - pass via environment variable
+jiraUrl: https://your-company.atlassian.net
+jiraUser: jirabots@your-company.com
+# jiraApiKey: # NOTE: secret - pass via environment variable
+confluenceSpaceKey: BLOG
