@@ -43,7 +43,7 @@ func TestParseInvalidPipelineHistory(t *testing.T) {
 
 func TestShouldGetPipelineComparisonFromValidJson(t *testing.T) {
 
-	filename := "./examples/gocd-pipeline-compare-long.json"
+	filename := "./sample-data/gocd-pipeline-compare-long.json"
 	validJSON, err := os.ReadFile(filename)
 	if err != nil {
 		t.Errorf("could not read file: %s", err)
@@ -56,7 +56,7 @@ func TestShouldGetPipelineComparisonFromValidJson(t *testing.T) {
 
 func TestShouldGetPipelineFromValidJson(t *testing.T) {
 
-	filename := "./examples/gocd-pipeline-history.json"
+	filename := "./sample-data/gocd-pipeline-history.json"
 	validJSON, err := os.ReadFile(filename)
 	if err != nil {
 		t.Errorf("could not read file: %s", err)
@@ -89,7 +89,7 @@ func TestConvertScheduledDateToGo(t *testing.T) {
 func TestConvertScheduledDateFromJSONToGo(t *testing.T) {
 
 	// Arrange
-	filename := "./examples/gocd-pipeline-history.json"
+	filename := "./sample-data/gocd-pipeline-history.json"
 	validJSON, err := os.ReadFile(filename)
 	if err != nil {
 		t.Errorf("could not read file: %s", err)

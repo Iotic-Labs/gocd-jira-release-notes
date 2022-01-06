@@ -1,0 +1,13 @@
+{
+  "value": "<p><ac:structured-macro ac:name=\"cheese\" ac:schema-version=\"1\" ac:macro-id=\"36922d1f-64d9-44b9-865e-5f0c97c08ff3\"><fab:placeholder-url>https://<account>.atlassian.net/wiki/plugins/servlet/confluence/placeholder/macro?definition=e2NoZWVzZX0&amp;locale=en_GB&amp;version=2</fab:placeholder-url><fab:display-type>INLINE</fab:display-type></ac:structured-macro> - <code>code</code>    (<a href=\"http://www.google.com)%3Cac%3Alink%3E%3Cri%3Apage+ri%3Acontent-title%3D%22link%22+%2F%3E%3C%2Fac%3Alink%3E\" class=\"external-link\" rel=\"nofollow\">http://www.google.com)<ac:link><ri:page ri:content-title=\"link\" /></ac:link></a>    <strong>bold</strong>* item 1* item 2** nested item    </p>",
+  "representation": "editor2",
+  "_expandable": {
+    "webresource": "",
+    "embeddedContent": "",
+    "mediaToken": ""
+  },
+  "_links": {
+    "base": "https://<account>.atlassian.net/wiki",
+    "context": "/wiki"
+  }
+}

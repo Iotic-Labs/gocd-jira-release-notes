@@ -40,7 +40,7 @@ func TestShouldReturnErrorIfInvalidJiraJsonPassedIn(t *testing.T) {
 
 func TestShouldGetJiraIssueFromValidJson(t *testing.T) {
 
-	filename := "./examples/jira-issue-sample.json"
+	filename := "./sample-data/jira-issue-sample.json"
 	validJSON, err := os.ReadFile(filename)
 	if err != nil {
 		t.Errorf("could not read file: %s", err)

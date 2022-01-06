@@ -14,6 +14,11 @@ import (
 	"gopkg.in/go-playground/validator.v9"
 )
 
+// JiraIssue represents Jira issue.
+// Take a special note of the hard-coded field `Customfield10110`
+// which represents the Release Notes custom field.
+// This would be called differently on other Jira accounts
+// so it should be refactored to make the code more generic for all accounts.
 type JiraIssue struct {
 	Expand string `json:"expand"`
 	ID     string `json:"id"`
@@ -187,7 +192,7 @@ func getJiraIssue(cfg *Config, key string) (*JiraIssue, error) {
 		log.Fatalln(err)
 	}
 	// NOTE: for debugging/testing
-	//os.WriteFile(fmt.Sprintf("./examples/jira-%s.json", key), body, 0644)
+	//os.WriteFile(fmt.Sprintf("./sample-data/jira-%s.json", key), body, 0644)
 
 	obj, err := parseJiraIssue(body)
 	return &obj, err
@@ -231,7 +236,7 @@ func extractReleaseNotes(jiraIssues []JiraIssue) *Notes {
 	for _, issue := range jiraIssues {
 		fmt.Printf("%s - %s\n", issue.Key, issue.Fields.Issuetype.Name)
 		// e.g.
-		// "h4. Breaking Change\n\n* rename Iotic Web API methods and objects"
+		// "h4. Breaking Change\n\n* rename Iotic API methods and objects"
 
 		// TODO: we could validate that the Release Notes field
 		// still corresponds to Customfield10110

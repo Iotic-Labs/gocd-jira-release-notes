@@ -34,6 +34,7 @@ func init() {
 	requestID = fmt.Sprintf("%v", xid.New())
 }
 
+// Serve starts a local server on a configured port
 func Serve() {
 	cfg := NewDefaultConfig()
 

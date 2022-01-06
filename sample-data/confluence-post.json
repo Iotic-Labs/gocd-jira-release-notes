@@ -1,0 +1,190 @@
+{
+  "id": "539492380",
+  "type": "blogpost",
+  "status": "current",
+  "title": "Our Release Notes 2.0.390 - 2021-03-10",
+  "space": {
+    "id": 12345,
+    "key": "RN",
+    "name": "Release Notes",
+    "type": "global",
+    "status": "current",
+    "_expandable": {
+      "settings": "/rest/api/space/RN/settings",
+      "metadata": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=RN",
+      "identifiers": "",
+      "permissions": "",
+      "icon": "",
+      "description": "",
+      "theme": "/rest/api/space/RN/theme",
+      "history": "",
+      "homepage": "/rest/api/content/514097560"
+    },
+    "_links": {
+      "webui": "/spaces/RN",
+      "self": "https://<account>.atlassian.net/wiki/rest/api/space/RN"
+    }
+  },
+  "history": {
+    "latest": true,
+    "createdBy": {
+      "type": "known",
+      "accountId": "6050cb0706cbba006aea511b",
+      "accountType": "atlassian",
+      "email": "jirabots@iotics.com",
+      "publicName": "jirabots",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/6050cb0706cbba006aea511b",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "jirabots",
+      "isExternalCollaborator": false,
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://<account>.atlassian.net/wiki/rest/api/user?accountId=6050cb0706cbba006aea511b"
+      }
+    },
+    "createdDate": "2021-03-26T13:30:39.715Z",
+    "_expandable": {
+      "lastUpdated": "",
+      "previousVersion": "",
+      "contributors": "",
+      "nextVersion": ""
+    },
+    "_links": {
+      "self": "https://<account>.atlassian.net/wiki/rest/api/content/539492380/history"
+    }
+  },
+  "version": {
+    "by": {
+      "type": "known",
+      "accountId": "6050cb0706cbba006aea511b",
+      "accountType": "atlassian",
+      "email": "jirabots@iotics.com",
+      "publicName": "jirabots",
+      "profilePicture": {
+        "path": "/wiki/aa-avatar/6050cb0706cbba006aea511b",
+        "width": 48,
+        "height": 48,
+        "isDefault": false
+      },
+      "displayName": "jirabots",
+      "isExternalCollaborator": false,
+      "_expandable": {
+        "operations": "",
+        "personalSpace": ""
+      },
+      "_links": {
+        "self": "https://<account>.atlassian.net/wiki/rest/api/user?accountId=6050cb0706cbba006aea511b"
+      }
+    },
+    "when": "2021-03-26T13:30:39.715Z",
+    "friendlyWhen": "just a moment ago",
+    "message": "",
+    "number": 1,
+    "minorEdit": false,
+    "confRev": "confluence$content$539492380.3",
+    "_expandable": {
+      "collaborators": "",
+      "content": "/rest/api/content/539492380"
+    },
+    "_links": {
+      "self": "https://<account>.atlassian.net/wiki/rest/api/content/539492380/version/1"
+    }
+  },
+  "ancestors": [],
+  "container": {
+    "id": 514097380,
+    "key": "RN",
+    "name": "Release Notes",
+    "type": "global",
+    "status": "current",
+    "history": {
+      "createdBy": {
+        "type": "known",
+        "accountId": "5ca6355e66c5b40acb9fcb92",
+        "accountType": "atlassian",
+        "email": "super.user@iotics.com",
+        "publicName": "Super User",
+        "profilePicture": {
+          "path": "/wiki/aa-avatar/5ca6355e66c5b40acb9fcb92",
+          "width": 48,
+          "height": 48,
+          "isDefault": false
+        },
+        "displayName": "Peter Pan",
+        "isExternalCollaborator": false,
+        "_expandable": {
+          "operations": "",
+          "personalSpace": ""
+        },
+        "_links": {
+          "self": "https://<account>.atlassian.net/wiki/rest/api/user?accountId=5ca6355e66c5b40acb9fcb92"
+        }
+      },
+      "createdDate": "2021-03-15T16:46:13.683Z"
+    },
+    "_expandable": {
+      "settings": "/rest/api/space/RN/settings",
+      "metadata": "",
+      "operations": "",
+      "lookAndFeel": "/rest/api/settings/lookandfeel?spaceKey=RN",
+      "identifiers": "",
+      "permissions": "",
+      "icon": "",
+      "description": "",
+      "theme": "/rest/api/space/RN/theme",
+      "homepage": "/rest/api/content/514097560"
+    },
+    "_links": {
+      "webui": "/spaces/RN",
+      "self": "https://<account>.atlassian.net/wiki/rest/api/space/RN"
+    }
+  },
+  "macroRenderedOutput": {},
+  "body": {
+    "storage": {
+      "value": "<h1>Features</h1>\n<ul>\n\t<li>New service available: &ldquo;Get REMOTE feed last shared value&rdquo;\n\t<ul>\n\t\t<li>Get the last value shared by a remote feed (if&nbsp;<code>storeLast</code>&nbsp;is enabled on this feed) over gRPC (not exposed to the end user yet)</li>\n\t\t<li>Get the last value shared by a remote feed (if&nbsp;<code>storeLast</code>&nbsp;is enabled on this feed) over REST<br />\n(endpoint: <code>/twins/&lt;followerTwinId&gt;/interests/hosts/&lt;hostId&gt;/twins/&lt;followedTwinId&gt;/feeds/&lt;followedFeedId&gt;/samples/last</code>) See more: <a href=\"https://docs.iotics.com/reference/interest#fetch_last_stored-1\">https://docs.iotics.com/reference/interest#fetch_last_stored-1</a></li>\n\t</ul>\n\t</li>\n</ul>\n\n\n<h1>Improvements</h1>\n<ul>\n\t<li>STOMP error frame body now contains JSON-encoded <a href=\"https://github.com/Iotic-Labs/iotic-web/blob/master/iotic.web.rest.client/doc/gen/docs/RpcStatus.md\">RPCStatus</a>. See example in <a href=\"https://github.com/Iotic-Labs/iotic-host/blob/091e130ce6df580d07152f34f90e619912057236/tests/common/stomp_helper.py#L82-L91\">iotic-host tests</a> how it can be decoded.</li>\n</ul>\n\n\n<h1>Breaking Changes</h1>\n<ul>\n\t<li>STOMP error frame body (JSON) has changed:\n\t<ul>\n\t\t<li>Old:\n\t\t<ul>\n\t\t\t<li><code>error</code> - string</li>\n\t\t\t<li><code>message</code> - string</li>\n\t\t</ul>\n\t\t</li>\n\t\t<li>New:\n\t\t<ul>\n\t\t\t<li><code>code</code> -  integer (a <a href=\"https://grpc.github.io/grpc/core/md_doc_statuscodes.html\">grpc code</a>)</li>\n\t\t\t<li><code>message</code> - string with additional details about the error (beyond what what the STOMP <code>message</code> header contains)</li>\n\t\t</ul>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>",
+      "representation": "storage",
+      "embeddedContent": [],
+      "_expandable": {
+        "content": "/rest/api/content/539492380"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "atlas_doc_format": "",
+      "view": "",
+      "export_view": "",
+      "styled_view": "",
+      "dynamic": "",
+      "editor2": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "_expandable": {
+    "childTypes": "",
+    "metadata": "",
+    "operations": "",
+    "schedulePublishDate": "",
+    "children": "/rest/api/content/539492380/child",
+    "restrictions": "/rest/api/content/539492380/restriction/byOperation",
+    "descendants": "/rest/api/content/539492380/descendant"
+  },
+  "_links": {
+    "editui": "/pages/resumedraft.action?draftId=539492380",
+    "webui": "/spaces/RN/blog/2021/03/26/539492380/Host+Release+Notes+2.0.390+-+2021-03-10",
+    "context": "/wiki",
+    "self": "https://<account>.atlassian.net/wiki/rest/api/content/539492380",
+    "tinyui": "/x/HAAoI",
+    "collection": "/rest/api/content",
+    "base": "https://<account>.atlassian.net/wiki"
+  }
+}

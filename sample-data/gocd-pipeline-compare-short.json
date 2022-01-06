@@ -1,0 +1,62 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://gocd.iotics/go/api/pipelines/:pipeline_name/compare/:from_counter/:to_counter"
+    },
+    "doc": {
+      "href": "https://api.gocd.org/20.8.0/#compare"
+    }
+  },
+  "pipeline_name": "system-package",
+  "from_counter": 390,
+  "to_counter": 391,
+  "is_bisect": false,
+  "changes": [
+    {
+      "material": {
+        "type": "git",
+        "attributes": {
+          "destination": null,
+          "filter": null,
+          "invert_filter": false,
+          "name": null,
+          "auto_update": true,
+          "display_type": "Git",
+          "description": "URL: git@github.com:Iotic-Labs/system-core.git, Branch: main",
+          "url": "git@github.com:Iotic-Labs/system-core.git",
+          "branch": "main",
+          "submodule_folder": null,
+          "shallow_clone": false
+        }
+      },
+      "revision": [
+        {
+          "revision_sha": "ef66f41856582bc700ef7d08878882315afc9359",
+          "modified_by": "This Developer <12345678+this-developer@users.noreply.github.com>",
+          "modified_at": "2021-03-11T11:51:25Z",
+          "commit_message": "JI-2034 Added host identifiers to health endpoint"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "dependency",
+        "attributes": {
+          "name": null,
+          "pipeline": "iotic-core",
+          "stage": "docker_publish",
+          "auto_update": true,
+          "display_type": "Pipeline",
+          "description": "iotic-core [ docker_publish ]"
+        }
+      },
+      "revision": [
+        {
+          "revision": "iotic-core/76/docker_publish/1",
+          "pipeline_counter": "v0.2.76",
+          "completed_at": "2021-03-11T12:01:07Z"
+        }
+      ]
+    }
+  ]
+}

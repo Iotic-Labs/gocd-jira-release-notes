@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"fmt"
 	"io/ioutil"
 	"net/http"
 	"os"
@@ -32,7 +33,9 @@ func TestPublishToConfluence(t *testing.T) {
 	// … remember to delete the test page
 	if useMockedResponse {
 		mockGet := func(req *http.Request) (*http.Response, error) {
+			// use a mocked client to prevent posting to Confluence
 			if strings.HasSuffix("/wiki/rest/api/contentbody/convert/editor2", req.URL.Path) {
+				fmt.Printf("Test request for: %s%s\n", req.Host, req.URL.Path)
 				json := readSampleConfluenceConvert(t)
 				r := ioutil.NopCloser(bytes.NewReader([]byte(json)))
 				return &http.Response{
@@ -40,9 +43,8 @@ func TestPublishToConfluence(t *testing.T) {
 					Body:       r,
 				}, nil
 			}
-			// use a mocked client to prevent posting to Confluence
 			if strings.HasSuffix("/wiki/rest/api/content/", req.URL.Path) {
-				//fmt.Printf("Test request for: %s%s\n", req.Host, req.URL.Path)
+				fmt.Printf("Test request for: %s%s\n", req.Host, req.URL.Path)
 				json := readSampleConfluencePost(t)
 				r := ioutil.NopCloser(bytes.NewReader([]byte(json)))
 				return &http.Response{
@@ -66,21 +68,21 @@ func TestPublishToConfluence(t *testing.T) {
 }
 
 func readSampleConfluenceConvert(t *testing.T) []byte {
-	filename := "./examples/confluence-conversion.json"
+	filename := "./sample-data/confluence-conversion.json"
 	json, err := os.ReadFile(filename)
 	if err != nil {
 		t.Errorf("could not read file: %s", err)
 	}
-	//fmt.Printf("Using mocked request/response: %s\n", filename)
+	fmt.Printf("Using mocked request/response: %s\n", filename)
 	return json
 }
 
 func readSampleConfluencePost(t *testing.T) []byte {
-	filename := "./examples/confluence-post.json"
+	filename := "./sample-data/confluence-post.json"
 	json, err := os.ReadFile(filename)
 	if err != nil {
 		t.Errorf("could not read file: %s", err)
 	}
-	//fmt.Printf("Using mocked request/response: %s\n", filename)
+	fmt.Printf("Using mocked request/response: %s\n", filename)
 	return json
 }

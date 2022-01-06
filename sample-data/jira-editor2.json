@@ -1,0 +1,13 @@
+{
+  "value": "\n<h1>Changes</h1>\n<p>New gRPC/REST service available: “Get REMOTE feed last shared value”</p>\n\n<h1>Improvements</h1>\n<ul>\n\t<li>STOMP error frame body now contains JSON-encoded <a href=\"https://github.com/Iotic-Labs/iotic-web/blob/master/iotic.web.rest.client/doc/gen/docs/RpcStatus.md\">RPCStatus</a>. See example in <a href=\"https://github.com/Iotic-Labs/iotic-host/blob/091e130ce6df580d07152f34f90e619912057236/tests/common/stomp_helper.py#L82-L91\">iotic-host tests</a> how it can be decoded.</li>\n\t<li>Impr1</li>\n\t<li>Impr2</li>\n</ul>\n\n\n<h1>Breaking Changes</h1>\n<ul>\n\t<li>STOMP error frame body (JSON) has changed:\n\t<ul>\n\t\t<li>Old:\n\t\t<ul>\n\t\t\t<li><code>error</code> - string</li>\n\t\t\t<li><code>message</code> - string</li>\n\t\t</ul>\n\t\t</li>\n\t\t<li>New:\n\t\t<ul>\n\t\t\t<li><code>code</code> -  integer (a <a href=\"https://grpc.github.io/grpc/core/md_doc_statuscodes.html\">grpc code</a>)</li>\n\t\t\t<li><code>message</code> - string with additional details about the error (beyond what what the STOMP <code>message</code> header contains)</li>\n\t\t</ul>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n\n<h1>Features</h1>\n<ul>\n\t<li>Feat1</li>\n\t<li>Feat2</li>\n</ul>\n\n\n<h1>Bug Fixes</h1>\n<ul>\n\t<li>BF1</li>\n\t<li>BF2</li>\n</ul>",
+  "representation": "editor2",
+  "_expandable": {
+    "webresource": "",
+    "embeddedContent": "",
+    "mediaToken": ""
+  },
+  "_links": {
+    "base": "https://<account>.atlassian.net/wiki",
+    "context": "/wiki"
+  }
+}

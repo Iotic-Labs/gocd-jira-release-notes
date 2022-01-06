@@ -14,24 +14,23 @@ import (
 )
 
 // cURL sample:
-// domain="https://<account>.atlassian.net"
-// auth="<email>:<apikey>"
-// url="$domain/wiki/rest/api/content/"
-// curl -u "$auth" -X POST -H "Content-Type: application/json" $url --data @- << EOF
+// url="https://<account>.atlassian.net"/wiki/rest/api/content/"
+// curl -X POST -u "<email>:<apikey>" -H "Content-Type: application/json" $url --data @- << EOF
 // {
 //     "type":"blogpost",
 //     "space":{"key":"RN"},
 //     "status": "current",
-//     "id":"20210316001",
-//     "title":"2021-03-16 Host v2.0.400 - Release Notes",
+//     "id":"20220101001",
+//     "title":"2022-01-01 Our Project v1.5.0 - Release Notes",
 //     "body":{
 //         "storage":{
-//             "value":"<h1>Changes</h1><ul><li><b>hello</b> 123</li></ul>",
+//             "value":"<h1>Breaking Changes</h1><ul><li><b>nothing</b> 123</li></ul>",
 //             "representation":"storage"}
 //         }
 // }
 // EOF
 
+// ConfluencePost represents Confluence Blog Post object
 type ConfluencePost struct {
 	Type   string          `json:"type"`
 	Space  ConfluenceSpace `json:"space"`
@@ -84,7 +83,7 @@ func NewConfluencePost(spaceKey string, title string, content string, label stri
 		},
 		Metadata: ConfluenceMetadata{
 			Labels: []ConfluenceLabel{
-				ConfluenceLabel{Name: label},
+				{Name: label},
 			},
 		},
 	}
@@ -129,7 +128,7 @@ func publishReleaseNotesToConfluence(cfg *Config, timestamp time.Time, title str
 		return nil, fmt.Errorf("failed to post to Confluence %v %v", err, string(response))
 	}
 	// NOTE: for debugging
-	// os.WriteFile("./examples/confluence-post.json", response, 0644)
+	// os.WriteFile("./sample-data/confluence-post.json", response, 0644)
 
 	blogPost, err := parseConfluenceBlogPost(response)
 	if err != nil {
@@ -151,6 +150,7 @@ func createConfluenceContentHTML(cfg *Config, notes *Notes) (string, error) {
 	// NOTE: I've tried this approach initially,
 	// but it didn't work well with JIRA/Confluence URL format or JIRA/Confluence macros
 	// html := markdown.ToHTML([]byte(result), nil, nil)
+	// have I missed some trick?
 
 	confluenceFormat, err := convertToConfluenceFormat(cfg, result)
 	if err != nil {
@@ -175,7 +175,7 @@ func convertToConfluenceFormat(cfg *Config, text []byte) ([]byte, error) {
 	jsonStr, _ := json.Marshal(post)
 
 	// NOTE: for debugging/testing
-	// os.WriteFile("./examples/confluence-convert-format.json", jsonStr, 0644)
+	// os.WriteFile("./sample-data/confluence-convert-format.json", jsonStr, 0644)
 
 	req, err := http.NewRequest(http.MethodPost, apiURL, bytes.NewBuffer(jsonStr))
 	if err != nil {
@@ -183,6 +183,7 @@ func convertToConfluenceFormat(cfg *Config, text []byte) ([]byte, error) {
 	}
 
 	// create a token here: https://id.atlassian.com/manage-profile/security/api-tokens
+
 	req.SetBasicAuth(cfg.JiraUser, cfg.JiraApiKey)
 	req.Header.Add("Content-Type", "application/json")
 
@@ -204,7 +205,7 @@ func convertToConfluenceFormat(cfg *Config, text []byte) ([]byte, error) {
 		return nil, err
 	}
 	// NOTE: for debugging/testing
-	//os.WriteFile(fmt.Sprintf("./examples/jira-%s.json", key), body, 0644)
+	//os.WriteFile(fmt.Sprintf("./sample-data/jira-%s.json", key), body, 0644)
 
 	obj, err := parseConfluenceStorage(body)
 	if err != nil {

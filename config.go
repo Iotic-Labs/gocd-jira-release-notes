@@ -45,7 +45,7 @@ func NewDefaultConfig() *Config {
 	}
 
 	// NOTE: we could import a proper cert,
-	// e.g. for GoCD our own corp.iotic.ca.pem cert
+	// e.g. for GoCD our own corp.ca.pem cert
 	// but that would add extra 20 lines I don't want to maintain now
 	transport := &http.Transport{
 		TLSClientConfig: &tls.Config{InsecureSkipVerify: true},

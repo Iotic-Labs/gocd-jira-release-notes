@@ -159,7 +159,7 @@ func loadPipelineHistoryFromResponse(body io.ReadCloser) (*GocdPipelineHistory, 
 	input, _ := ioutil.ReadAll(body)
 
 	// NOTE: for debugging
-	//os.WriteFile("./examples/gocd-pipeline-history-2.json", input, 0644)
+	//os.WriteFile("./sample-data/gocd-pipeline-history-2.json", input, 0644)
 
 	data, err := parseGocdPipelineHistory(input)
 	return &data, err
@@ -171,8 +171,9 @@ func loadPipelineComparisonFromResponse(body io.ReadCloser) (*GocdPipelineCompar
 	}
 	defer body.Close()
 	input, _ := ioutil.ReadAll(body)
+
 	// NOTE: for debugging
-	// os.WriteFile("./examples/gocd-pipeline-compare.json", input, 0644)
+	//os.WriteFile("./sample-data/gocd-pipeline-compare.json", input, 0644)
 
 	data, err := parseGocdPipelineComparison(input)
 	return &data, err

@@ -1,0 +1,392 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "20846",
+  "self": "https://<account>.atlassian.net/rest/agile/1.0/issue/20846",
+  "key": "JI-2019",
+  "fields": {
+    "statuscategorychangedate": "2021-02-26T13:57:05.185+0000",
+    "customfield_10070": null,
+    "customfield_10071": null,
+    "customfield_10072": null,
+    "customfield_10073": null,
+    "customfield_10074": null,
+    "customfield_10075": null,
+    "customfield_10076": null,
+    "customfield_10110": null,
+    "customfield_10077": null,
+    "fixVersions": [],
+    "customfield_10078": null,
+    "customfield_10079": null,
+    "resolution": {
+      "self": "https://<account>.atlassian.net/rest/api/2/resolution/10000",
+      "id": "10000",
+      "description": "Work has been completed on this issue.",
+      "name": "Done"
+    },
+    "customfield_10104": null,
+    "customfield_10105": null,
+    "customfield_10106": null,
+    "customfield_10107": null,
+    "customfield_10109": {
+      "self": "https://<account>.atlassian.net/rest/api/2/customFieldOption/10164",
+      "value": "Yes",
+      "id": "10164"
+    },
+    "lastViewed": "2021-03-03T09:16:26.770+0000",
+    "customfield_10060": null,
+    "customfield_10061": null,
+    "customfield_10062": null,
+    "customfield_10063": null,
+    "customfield_10064": null,
+    "customfield_10065": null,
+    "epic": null,
+    "customfield_10066": null,
+    "customfield_10100": null,
+    "priority": {
+      "self": "https://<account>.atlassian.net/rest/api/2/priority/3",
+      "iconUrl": "https://<account>.atlassian.net/images/icons/priorities/medium.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "customfield_10067": null,
+    "customfield_10101": null,
+    "customfield_10068": null,
+    "customfield_10069": null,
+    "customfield_10102": null,
+    "labels": ["Unplanned", "refactoring"],
+    "customfield_10103": null,
+    "timeestimate": null,
+    "aggregatetimeoriginalestimate": null,
+    "versions": [],
+    "issuelinks": [],
+    "assignee": null,
+    "status": {
+      "self": "https://<account>.atlassian.net/rest/api/2/status/10013",
+      "description": "",
+      "iconUrl": "https://<account>.atlassian.net/",
+      "name": "Done",
+      "id": "10013",
+      "statusCategory": {
+        "self": "https://<account>.atlassian.net/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+      }
+    },
+    "components": [
+      {
+        "self": "https://<account>.atlassian.net/rest/api/2/component/10087",
+        "id": "10087",
+        "name": "CI/CD"
+      }
+    ],
+    "customfield_10050": null,
+    "customfield_10052": null,
+    "customfield_10053": null,
+    "customfield_10054": null,
+    "customfield_10057": {
+      "self": "https://<account>.atlassian.net/rest/api/2/customFieldOption/10023",
+      "value": "1 - High",
+      "id": "10023"
+    },
+    "customfield_10058": null,
+    "customfield_10059": null,
+    "customfield_10049": null,
+    "aggregatetimeestimate": null,
+    "creator": {
+      "self": "https://<account>.atlassian.net/rest/api/2/user?accountId=5cae1b1c055f3f7a1824c427",
+      "accountId": "5cae1b1c055f3f7a1824c427",
+      "emailAddress": "super.user@iotics.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cae1b1c055f3f7a1824c427/7930e210-2623-4e09-bf44-a58ed92eca95/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cae1b1c055f3f7a1824c427/7930e210-2623-4e09-bf44-a58ed92eca95/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cae1b1c055f3f7a1824c427/7930e210-2623-4e09-bf44-a58ed92eca95/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cae1b1c055f3f7a1824c427/7930e210-2623-4e09-bf44-a58ed92eca95/32"
+      },
+      "displayName": "Top Dev",
+      "active": true,
+      "timeZone": "Europe/London",
+      "accountType": "atlassian"
+    },
+    "subtasks": [],
+    "reporter": {
+      "self": "https://<account>.atlassian.net/rest/api/2/user?accountId=5cae1b1c055f3f7a1824c427",
+      "accountId": "5cae1b1c055f3f7a1824c427",
+      "emailAddress": "super.user@iotics.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cae1b1c055f3f7a1824c427/7930e210-2623-4e09-bf44-a58ed92eca95/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cae1b1c055f3f7a1824c427/7930e210-2623-4e09-bf44-a58ed92eca95/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cae1b1c055f3f7a1824c427/7930e210-2623-4e09-bf44-a58ed92eca95/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cae1b1c055f3f7a1824c427/7930e210-2623-4e09-bf44-a58ed92eca95/32"
+      },
+      "displayName": "Top Dev",
+      "active": true,
+      "timeZone": "Europe/London",
+      "accountType": "atlassian"
+    },
+    "customfield_10043": null,
+    "aggregateprogress": { "progress": 0, "total": 0 },
+    "customfield_10044": null,
+    "customfield_10045": null,
+    "customfield_10046": null,
+    "customfield_10047": null,
+    "customfield_10048": [],
+    "customfield_10038": null,
+    "closedSprints": [
+      {
+        "id": 320,
+        "self": "https://<account>.atlassian.net/rest/agile/1.0/sprint/320",
+        "state": "closed",
+        "name": "Iotics Core Sprint 43",
+        "startDate": "2021-02-17T12:10:42.913Z",
+        "endDate": "2021-03-03T09:08:00.000Z",
+        "completeDate": "2021-03-03T09:14:21.033Z",
+        "originBoardId": 118,
+        "goal": "Goal: Complete POC and progress knowledge transfer\nSprint Champion: Best Dev"
+      }
+    ],
+    "progress": { "progress": 0, "total": 0 },
+    "votes": {
+      "self": "https://<account>.atlassian.net/rest/api/2/issue/JI-2019/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": { "startAt": 0, "maxResults": 20, "total": 0, "worklogs": [] },
+    "issuetype": {
+      "self": "https://<account>.atlassian.net/rest/api/2/issuetype/10004",
+      "id": "10004",
+      "description": "A problem or error.",
+      "iconUrl": "https://<account>.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype",
+      "name": "Bug",
+      "subtask": false,
+      "avatarId": 10303
+    },
+    "timespent": null,
+    "sprint": null,
+    "project": {
+      "self": "https://<account>.atlassian.net/rest/api/2/project/10032",
+      "id": "10032",
+      "key": "FO",
+      "name": "Host",
+      "projectTypeKey": "software",
+      "simplified": false,
+      "avatarUrls": {
+        "48x48": "https://<account>.atlassian.net/secure/projectavatar?pid=10032&avatarId=10614",
+        "24x24": "https://<account>.atlassian.net/secure/projectavatar?size=small&s=small&pid=10032&avatarId=10614",
+        "16x16": "https://<account>.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10032&avatarId=10614",
+        "32x32": "https://<account>.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10032&avatarId=10614"
+      },
+      "projectCategory": {
+        "self": "https://<account>.atlassian.net/rest/api/2/projectCategory/10003",
+        "id": "10003",
+        "description": "",
+        "name": "Engineering"
+      }
+    },
+    "customfield_10033": 0.0,
+    "aggregatetimespent": null,
+    "customfield_10034": null,
+    "customfield_10035": null,
+    "customfield_10036": null,
+    "customfield_10037": null,
+    "customfield_10027": null,
+    "customfield_10028": "Given I have Go 1.16+ installed\nWhen I run mage/dev-mage-cli\nThen it works as before",
+    "resolutiondate": "2021-02-26T13:57:05.160+0000",
+    "workratio": -1,
+    "issuerestriction": { "issuerestrictions": {}, "shouldDisplay": false },
+    "watches": {
+      "self": "https://<account>.atlassian.net/rest/api/2/issue/JI-2019/watchers",
+      "watchCount": 2,
+      "isWatching": true
+    },
+    "created": "2021-02-25T09:17:40.972+0000",
+    "customfield_10020": "1_*:*_1_*:*_194933_*|*_3_*:*_1_*:*_22655944_*|*_10030_*:*_1_*:*_6076689_*|*_10032_*:*_1_*:*_74234918_*|*_10013_*:*_1_*:*_0_*|*_10036_*:*_1_*:*_1819",
+    "customfield_10021": [
+      {
+        "id": 320,
+        "name": "Iotics Sprint 43",
+        "state": "closed",
+        "boardId": 118,
+        "goal": "Goal: Complete POC and progress knowledge transfer\nSprint Champion: Best Dev",
+        "startDate": "2021-02-17T12:10:42.913Z",
+        "endDate": "2021-03-03T09:08:00.000Z",
+        "completeDate": "2021-03-03T09:14:21.033Z"
+      }
+    ],
+    "customfield_10022": "1|i000kv:",
+    "customfield_10025": null,
+    "customfield_10026": 1.0,
+    "customfield_10016": null,
+    "customfield_10017": null,
+    "customfield_10018": {
+      "hasEpicLinkFieldDependency": false,
+      "showField": false,
+      "nonEditableReason": {
+        "reason": "EPIC_LINK_SHOULD_BE_USED",
+        "message": "To set an epic as the parent, use the epic link instead"
+      }
+    },
+    "customfield_10019": "2021-02-25T09:42:52.324+0000",
+    "updated": "2021-03-03T09:17:07.178+0000",
+    "customfield_10090": null,
+    "customfield_10095": null,
+    "timeoriginalestimate": null,
+    "description": "This can affect any project which uses {{magefile.go}} under {{.mage}} subdirectory.\n\nCommit msg: {{JI-2019 fix compatibility with Go 1.16}}\n\nRunning these commands to migrate/fix:\n\n{noformat}git checkout master\ngit pull\ngit mv .mage magebuild\nsed -i \"s/\\.mage/magebuild/g\" Makefile\ngit add Makefile\n# check it…\ngit commit -m \"JI-2019 fix compatibility with Go 1.16\"\ngit push{noformat}\n\nAffected projects:\n\n* [https://github.com/Iotic-Labs/iotic-sdk-identity/blob/070079b41af48ec14719370fe0fba269e36a2e1f/sdk/go/Makefile|https://github.com/Iotic-Labs/iotic-sdk-identity/blob/070079b41af48ec14719370fe0fba269e36a2e1f/sdk/go/Makefile|smart-link] {color:green}*[ DONE ]*{color} \n* [https://github.com/Iotic-Labs/iotic-bulk-extra/blob/1d32a142bd88d4b05e58ec6afecb9920a12c3521/Makefile|https://github.com/Iotic-Labs/iotic-bulk-extra/blob/1d32a142bd88d4b05e58ec6afecb9920a12c3521/Makefile|smart-link] {color:green}*[ DONE ]*{color} \n* [https://github.com/Iotic-Labs/iotic-transport/blob/3d30d2b7d0c1ec270d7311cd024f5eee5a3a0dc2/Makefile|https://github.com/Iotic-Labs/iotic-transport/blob/3d30d2b7d0c1ec270d7311cd024f5eee5a3a0dc2/Makefile|smart-link] {color:green}*[ DONE ]*{color} \n* [https://github.com/Iotic-Labs/plateng-artifact-mirror/blob/7203e10e085ffe7908befe12602a7e4dd605ad26/Makefile|https://github.com/Iotic-Labs/plateng-artifact-mirror/blob/7203e10e085ffe7908befe12602a7e4dd605ad26/Makefile|smart-link] {color:green}*[ DONE ]*{color} \n* [https://github.com/Iotic-Labs/iotic-portal/blob/397c0b58ed6545e71bff34f8b1d664fdf11b8737/Makefile|https://github.com/Iotic-Labs/iotic-portal/blob/397c0b58ed6545e71bff34f8b1d664fdf11b8737/Makefile|smart-link] - [https://github.com/Iotic-Labs/iotic-portal/pull/416|https://github.com/Iotic-Labs/iotic-portal/pull/416|smart-link] \n* [https://github.com/Iotic-Labs/iotic-service-eventbus/blob/8e943b9f99a9cc18090dcb3867aa2dc98563bd76/Makefile|https://github.com/Iotic-Labs/iotic-service-eventbus/blob/8e943b9f99a9cc18090dcb3867aa2dc98563bd76/Makefile|smart-link] {color:green}*[ DONE ]*{color} \n* [https://github.com/Iotic-Labs/iotic-service-redis/blob/c1d7df7fd3907d3cc82fc3e7fb2e32708f104f9f/Makefile|https://github.com/Iotic-Labs/iotic-service-redis/blob/c1d7df7fd3907d3cc82fc3e7fb2e32708f104f9f/Makefile|smart-link] {color:green}*[ DONE ]*{color} \n* [https://github.com/Iotic-Labs/iotics-did-resolver/blob/18ff2df48c875e21a4cc4b873b7545705d29f211/Makefile|https://github.com/Iotic-Labs/iotics-did-resolver/blob/18ff2df48c875e21a4cc4b873b7545705d29f211/Makefile|smart-link] {color:green}*[ DONE ]*{color} \n* [https://github.com/Iotic-Labs/iotic-space-operator/blob/c1767bc4f319a661eff8042202682d36106e89c2/Makefile|https://github.com/Iotic-Labs/iotic-space-operator/blob/c1767bc4f319a661eff8042202682d36106e89c2/Makefile|smart-link] {color:green}*[ DONE ]*{color} \n* [https://github.com/Iotic-Labs/iotics-host-lib/blob/2172e73fcdf29da9a1e0d2e99d80b270732fe70c/Makefile|https://github.com/Iotic-Labs/iotics-host-lib/blob/2172e73fcdf29da9a1e0d2e99d80b270732fe70c/Makefile|smart-link] - [https://github.com/Iotic-Labs/iotics-host-lib/pull/28|https://github.com/Iotic-Labs/iotics-host-lib/pull/28|smart-link] \n* [https://github.com/Iotic-Labs/iotic-infra-tests/blob/7406be057dbf8b3bb39c84ca87ba5c2461d59774/Makefile|https://github.com/Iotic-Labs/iotic-infra-tests/blob/7406be057dbf8b3bb39c84ca87ba5c2461d59774/Makefile|smart-link] {color:green}*[ DONE ]*{color} \n* [https://github.com/Iotic-Labs/ioticsctl/blob/bc0d341f3a20ed29e3cb7d5ff2b9db54179f0107/Makefile|https://github.com/Iotic-Labs/ioticsctl/blob/bc0d341f3a20ed29e3cb7d5ff2b9db54179f0107/Makefile|smart-link] {color:green}*[ DONE ]*{color} \n* [https://github.com/Iotic-Labs/plateng-iotic-packager/blob/1d0cc415a40eaf305f7c05ddddd6a163c8d4bde8/Makefile|https://github.com/Iotic-Labs/plateng-iotic-packager/blob/1d0cc415a40eaf305f7c05ddddd6a163c8d4bde8/Makefile|smart-link] {color:green}*[ DONE ]*{color} \n* [https://github.com/Iotic-Labs/iotic-spec-qapi/blob/67cdbe0e1c0eeb7cd84489bf69b3d61b10b6dcac/Makefile|https://github.com/Iotic-Labs/iotic-spec-qapi/blob/67cdbe0e1c0eeb7cd84489bf69b3d61b10b6dcac/Makefile|smart-link] {color:green}*[ DONE ]*{color} \n* [https://github.com/Iotic-Labs/iotic-core/blob/3d1d3eadf4bf7bd1a153568d774fb5f004c07e13/Makefile|https://github.com/Iotic-Labs/iotic-core/blob/3d1d3eadf4bf7bd1a153568d774fb5f004c07e13/Makefile|smart-link] {color:green}*[ DONE ]*{color} - flaky tests (were failing, retry fixed it)\n* [https://github.com/Iotic-Labs/iotics-docker-python-base/blob/5981ee2a2ab15800160c4f6b0e9ab2339ad7e064/Makefile|https://github.com/Iotic-Labs/iotics-docker-python-base/blob/5981ee2a2ab15800160c4f6b0e9ab2339ad7e064/Makefile|smart-link] {color:green}*[ DONE ]*{color} \n* [https://github.com/Iotic-Labs/iotics-data-sources/blob/b3e79256e1edb2dd9c9ed443b511e84acefaff95/bostonmetro-vehicles/Makefile|https://github.com/Iotic-Labs/iotics-data-sources/blob/b3e79256e1edb2dd9c9ed443b511e84acefaff95/bostonmetro-vehicles/Makefile|smart-link] {color:green}*[ DONE ]*{color} \n* [https://github.com/Iotic-Labs/iotics-data-sources/blob/43f74b53163533658b6c36941772de22656784f0/random-gen/Makefile|https://github.com/Iotic-Labs/iotics-data-sources/blob/43f74b53163533658b6c36941772de22656784f0/random-gen/Makefile|smart-link] {color:green}*[ DONE ]*{color} \n* [https://github.com/Iotic-Labs/iotics-data-sources/blob/b19b2fdaf07b0cda84df57c41e50926622025011/bostonmetro-vehicles-qapi/Makefile|https://github.com/Iotic-Labs/iotics-data-sources/blob/b19b2fdaf07b0cda84df57c41e50926622025011/bostonmetro-vehicles-qapi/Makefile|smart-link] {color:green}*[ DONE ]*{color} \n* [https://github.com/Iotic-Labs/iotic-host/blob/62fd176c448c9edd7fe823672873510b4b2e67f6/Makefile|https://github.com/Iotic-Labs/iotic-host/blob/62fd176c448c9edd7fe823672873510b4b2e67f6/Makefile|smart-link] {color:green}*[ DONE ]*{color}\n* [https://github.com/Iotic-Labs/iotic-spec-host/blob/7fb3394a7a5213c3ac82c655139fd0f8b0b5683f/Makefile|https://github.com/Iotic-Labs/iotic-spec-host/blob/7fb3394a7a5213c3ac82c655139fd0f8b0b5683f/Makefile|smart-link] {color:green}*[ DONE ]*{color}\n* [https://github.com/Iotic-Labs/iotic-chart/blob/ec45fff5158babcb38059b1a3f01e79e41f5abc8/Makefile|https://github.com/Iotic-Labs/iotic-chart/blob/ec45fff5158babcb38059b1a3f01e79e41f5abc8/Makefile|smart-link] {color:green}*[ DONE ]*{color} \n* [https://github.com/Iotic-Labs/iotic-lib-metadata/blob/9b758054b494f7b622a86f04844df590c4e6ee56/Makefile|https://github.com/Iotic-Labs/iotic-lib-metadata/blob/9b758054b494f7b622a86f04844df590c4e6ee56/Makefile|smart-link] {color:green}*[ DONE ]*{color} \n\n----\n\nWith Go 1.16, running mage (e.g. here in {{lib-metadata}} repo) produces this error:\n\n{noformat}$ go run .mage/mage.go -d .mage -w . -debug\nDEBUG: 09:04:23.310866 getting all non-mage files in .mage\nDEBUG: 09:04:23.319071 found non-mage files \nDEBUG: 09:04:23.319083 getting all files plus mage files\nDEBUG: 09:04:23.326719 time to scan for Magefiles: 15.898137ms\nNo .go files marked with the mage build tag in this directory.\nexit status 1{noformat}\n\nThe lack of files within mage comes from [this command|https://github.com/magefile/mage/blob/07afc7d24f4d6d6442305d49552f04fbda5ccb3e/mage/main.go#L473] (run in {{.mage}} sub-directory and produces zero results):\n\n{noformat}go list -tags=mage -e -f '{{join .GoFiles \"||\"}}'{noformat}",
+    "customfield_10097": null,
+    "customfield_10010": null,
+    "customfield_10099": null,
+    "customfield_10014": null,
+    "customfield_10015": null,
+    "customfield_10005": null,
+    "customfield_10006": null,
+    "customfield_10007": null,
+    "security": null,
+    "customfield_10008": null,
+    "customfield_10009": null,
+    "attachment": [],
+    "flagged": false,
+    "summary": "Fix magefile to work with Go v1.16",
+    "customfield_10080": null,
+    "customfield_10081": null,
+    "customfield_10082": null,
+    "customfield_10083": null,
+    "customfield_10085": null,
+    "customfield_10087": null,
+    "customfield_10000": "{pullrequest={dataType=pullrequest, state=MERGED, stateCount=2}, json={\"cachedValue\":{\"errors\":[],\"summary\":{\"pullrequest\":{\"overall\":{\"count\":2,\"lastUpdated\":\"2021-02-26T13:56:54.000+0000\",\"stateCount\":2,\"state\":\"MERGED\",\"dataType\":\"pullrequest\",\"open\":false},\"byInstanceType\":{\"GitHub\":{\"count\":2,\"name\":\"GitHub\"}}}}},\"isStale\":true}}",
+    "customfield_10088": null,
+    "customfield_10001": {
+      "id": "64",
+      "title": "Iotics Foundation Team",
+      "isShared": true
+    },
+    "customfield_10089": null,
+    "customfield_10002": null,
+    "customfield_10003": null,
+    "customfield_10004": null,
+    "environment": null,
+    "duedate": null,
+    "comment": {
+      "comments": [
+        {
+          "self": "https://<account>.atlassian.net/rest/api/2/issue/20846/comment/24590",
+          "id": "24590",
+          "author": {
+            "self": "https://<account>.atlassian.net/rest/api/2/user?accountId=5de4decccdc2d20d0537ed7e",
+            "accountId": "5de4decccdc2d20d0537ed7e",
+            "emailAddress": "best.dev@iotics.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/32"
+            },
+            "displayName": "Best Dev",
+            "active": true,
+            "timeZone": "Europe/London",
+            "accountType": "atlassian"
+          },
+          "body": "Raised also in [https://github.com/magefile/mage/issues/336|https://github.com/magefile/mage/issues/336|smart-link] ",
+          "updateAuthor": {
+            "self": "https://<account>.atlassian.net/rest/api/2/user?accountId=5de4decccdc2d20d0537ed7e",
+            "accountId": "5de4decccdc2d20d0537ed7e",
+            "emailAddress": "best.dev@iotics.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/32"
+            },
+            "displayName": "Best Dev",
+            "active": true,
+            "timeZone": "Europe/London",
+            "accountType": "atlassian"
+          },
+          "created": "2021-02-25T09:42:52.324+0000",
+          "updated": "2021-02-25T09:42:52.324+0000",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://<account>.atlassian.net/rest/api/2/issue/20846/comment/24591",
+          "id": "24591",
+          "author": {
+            "self": "https://<account>.atlassian.net/rest/api/2/user?accountId=5de4decccdc2d20d0537ed7e",
+            "accountId": "5de4decccdc2d20d0537ed7e",
+            "emailAddress": "best.dev@iotics.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/32"
+            },
+            "displayName": "Best Dev",
+            "active": true,
+            "timeZone": "Europe/London",
+            "accountType": "atlassian"
+          },
+          "body": "It’s because of this [https://github.com/golang/go/issues/43985|https://github.com/golang/go/issues/43985|smart-link] \n\nThis has been mentioned in the Go 1.16 release notes:\n\n{quote}In module mode, the {{go}} command now disallows import paths that include non-ASCII characters or path elements with a leading dot character ({{.}}). Module paths with these characters were already disallowed (see [+Module paths and versions+|https://golang.org/ref/mod#go-mod-file-ident]), so this change affects only paths within module subdirectories.{quote}",
+          "updateAuthor": {
+            "self": "https://<account>.atlassian.net/rest/api/2/user?accountId=5de4decccdc2d20d0537ed7e",
+            "accountId": "5de4decccdc2d20d0537ed7e",
+            "emailAddress": "best.dev@iotics.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/32"
+            },
+            "displayName": "Best Dev",
+            "active": true,
+            "timeZone": "Europe/London",
+            "accountType": "atlassian"
+          },
+          "created": "2021-02-25T10:48:59.088+0000",
+          "updated": "2021-02-25T10:48:59.088+0000",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://<account>.atlassian.net/rest/api/2/issue/20846/comment/24592",
+          "id": "24592",
+          "author": {
+            "self": "https://<account>.atlassian.net/rest/api/2/user?accountId=5de4decccdc2d20d0537ed7e",
+            "accountId": "5de4decccdc2d20d0537ed7e",
+            "emailAddress": "best.dev@iotics.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/32"
+            },
+            "displayName": "Best Dev",
+            "active": true,
+            "timeZone": "Europe/London",
+            "accountType": "atlassian"
+          },
+          "body": "We can just rename the {{.mage}} subdirectory to {{mage}} and update Makefile accordingly everywhere. I’ve tried to use different prefix so that it’s still kind of separated from other code, but {{-mage}} didn’t work well in Makefile (would have to be escaped = ugly), {{_mage}} looked odd and {{~mage}} looked odd too and broke {{go}} language server in VSCode (it shouldn’t have, but bah).\n\nIn the end, I didn’t like just the {{mage}} directory name, so using {{magebuild}}.",
+          "updateAuthor": {
+            "self": "https://<account>.atlassian.net/rest/api/2/user?accountId=5de4decccdc2d20d0537ed7e",
+            "accountId": "5de4decccdc2d20d0537ed7e",
+            "emailAddress": "best.dev@iotics.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/32"
+            },
+            "displayName": "Best Dev",
+            "active": true,
+            "timeZone": "Europe/London",
+            "accountType": "atlassian"
+          },
+          "created": "2021-02-25T10:49:35.299+0000",
+          "updated": "2021-02-25T15:49:14.639+0000",
+          "jsdPublic": true
+        }
+      ],
+      "self": "https://<account>.atlassian.net/rest/api/2/issue/20846/comment",
+      "maxResults": 3,
+      "total": 3,
+      "startAt": 0
+    }
+  }
+}

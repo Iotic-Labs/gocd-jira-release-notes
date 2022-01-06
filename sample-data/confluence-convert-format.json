@@ -1,0 +1,4 @@
+{
+  "value": "\nh1. Bug Fixes\n* BF1\n* BF2\n\nh1. Changes\nNew gRPC/REST service available: “Get last connected client”\n\nh1. Improvements\n* STOMP error frame body now contains JSON-encoded RPCStatus. \n* Impr1\n* Impr2\n\nh1. Breaking Changes\n* STOMP error frame body (JSON) has changed:\n** Old:\n*** {{error}} - string\n*** {{message}} - string\n** New:\n*** {{code}} -  integer (a [grpc code|https://grpc.github.io/grpc/core/md_doc_statuscodes.html])\n*** {{message}} - string with additional details about the error (beyond what what the STOMP {{message}} header contains)\n\nh1. Features\n* Feat1\n* Feat2\n",
+  "representation": "wiki"
+}

@@ -1,0 +1,624 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://gocd.iotic/go/api/pipelines/:pipeline_name/compare/:from_counter/:to_counter"
+    },
+    "doc": {
+      "href": "https://api.gocd.org/20.8.0/#compare"
+    }
+  },
+  "pipeline_name": "our-pipeline",
+  "from_counter": 389,
+  "to_counter": 390,
+  "is_bisect": false,
+  "changes": [
+    {
+      "material": {
+        "type": "git",
+        "attributes": {
+          "destination": null,
+          "filter": null,
+          "invert_filter": false,
+          "name": null,
+          "auto_update": true,
+          "display_type": "Git",
+          "description": "URL: git@github.com:Iotic-Labs/gocd-jira-release-notes.git, Branch: main",
+          "url": "git@github.com:Iotic-Labs/gocd-jira-release-notes.git",
+          "branch": "main",
+          "submodule_folder": null,
+          "shallow_clone": false
+        }
+      },
+      "revision": [
+        {
+          "revision_sha": "e87e107ff928ea12fd3809537207dce948c78470",
+          "modified_by": "dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+          "modified_at": "2021-03-08T16:36:11Z",
+          "commit_message": "Bump github.com/Iotic-Labs/iotic-server-core from 0.2.36 to 0.2.39 (#171)"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "git",
+        "attributes": {
+          "destination": null,
+          "filter": null,
+          "invert_filter": false,
+          "name": null,
+          "auto_update": true,
+          "display_type": "Git",
+          "description": "URL: git@github.com:Iotic-Labs/iotic-service.git, Branch: main",
+          "url": "git@github.com:Iotic-Labs/iotic-service.git",
+          "branch": "main",
+          "submodule_folder": null,
+          "shallow_clone": false
+        }
+      },
+      "revision": [
+        {
+          "revision_sha": "beb7029a2aa32fe43fdd8a9fb916d596f43f0b0c",
+          "modified_by": "Best Developer <best.developer@iotics.com>",
+          "modified_at": "2021-03-09T20:16:53Z",
+          "commit_message": "JI-1227 disable entity existency check\n\nSee https://<account>.atlassian.net/browse/JI-2054"
+        },
+        {
+          "revision_sha": "ea954b7b9529b0f47718c8b2065d093b11af54df",
+          "modified_by": "Best Developer <best.developer@iotics.com>",
+          "modified_at": "2021-03-09T18:51:01Z",
+          "commit_message": "JI-1227 add integration test"
+        },
+        {
+          "revision_sha": "2771cc9fb6b582c08c36ca6ce012f1fd4c0fc9bb",
+          "modified_by": "Best Developer <best.developer@iotic-labs.com>",
+          "modified_at": "2021-03-09T18:50:27Z",
+          "commit_message": "JI-1227 add remote protocol"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "git",
+        "attributes": {
+          "destination": null,
+          "filter": null,
+          "invert_filter": false,
+          "name": null,
+          "auto_update": true,
+          "display_type": "Git",
+          "description": "URL: git@github.com:Iotic-Labs/utils.git, Branch: main",
+          "url": "git@github.com:Iotic-Labs/utils.git",
+          "branch": "main",
+          "submodule_folder": null,
+          "shallow_clone": false
+        }
+      },
+      "revision": [
+        {
+          "revision_sha": "bd24d1dba88e3ef97dffe4d15eb48b1421f7fe22",
+          "modified_by": "dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+          "modified_at": "2021-02-22T06:15:46Z",
+          "commit_message": "Bump some dependencies\n\nBump github.com/Iotic-Labs/dev-mage-cli from 1.0.98 to 1.0.99\nBump github.com/Iotic-Labs/iotic-transport from 0.2.33 to 0.2.36\nBump github.com/libp2p/go-libp2p-core from 0.8.0 to 0.8.5\nBump github.com/spf13/cobra from 1.1.1 to 1.1.3\n\nBumps [github.com/libp2p/go-libp2p-core](https://github.com/libp2p/go-libp2p-core) from 0.8.0 to 0.8.5.\n- [Release notes](https://github.com/libp2p/go-libp2p-core/releases)\n- [Commits](https://github.com/libp2p/go-libp2p-core/compare/v0.8.0...v0.8.5)\n\nBumps [github.com/spf13/cobra](https://github.com/spf13/cobra) from 1.1.1 to 1.1.3.\n- [Release notes](https://github.com/spf13/cobra/releases)\n- [Changelog](https://github.com/spf13/cobra/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/spf13/cobra/compare/v1.1.1...v1.1.3)"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "git",
+        "attributes": {
+          "destination": null,
+          "filter": null,
+          "invert_filter": false,
+          "name": null,
+          "auto_update": true,
+          "display_type": "Git",
+          "description": "URL: git@github.com:Iotic-Labs/iotic-service-proto, Branch: main",
+          "url": "git@github.com:Iotic-Labs/iotic-service-proto",
+          "branch": "main",
+          "submodule_folder": null,
+          "shallow_clone": false
+        }
+      },
+      "revision": [
+        {
+          "revision_sha": "b009b64b77992c62cffceef23ab2a913b30926f2",
+          "modified_by": "Super Dev <super.dev@iotics.com>",
+          "modified_at": "2021-02-25T11:51:13Z",
+          "commit_message": "JI-2019 fix compatibility with Go 1.16"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "git",
+        "attributes": {
+          "destination": null,
+          "filter": null,
+          "invert_filter": false,
+          "name": null,
+          "auto_update": true,
+          "display_type": "Git",
+          "description": "URL: git@github.com:Iotic-Labs/iotic-service-meta, Branch: main",
+          "url": "git@github.com:Iotic-Labs/iotic-service-meta",
+          "branch": "main",
+          "submodule_folder": null,
+          "shallow_clone": false
+        }
+      },
+      "revision": [
+        {
+          "revision_sha": "9f69a036885c5699cbfb86938cb5f35670a25ef7",
+          "modified_by": "Super User <super.user@iotics.com>",
+          "modified_at": "2021-03-03T22:40:44Z",
+          "commit_message": "JI-2029 Fix redis runners terminating if connection to redis is lost for 30s+\n\n- Remove unnecessary timeout for re-connection wait"
+        },
+        {
+          "revision_sha": "b3f4fc4f158af23f17c031adae6166015039c2d6",
+          "modified_by": "Super User <super.user@iotics.com>",
+          "modified_at": "2021-03-03T22:57:06Z",
+          "commit_message": "JI-2029 tox - add duplicate-code to pylint ignore for tests\n\n- Also switch ignore codes to text form for readability"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "git",
+        "attributes": {
+          "destination": null,
+          "filter": null,
+          "invert_filter": false,
+          "name": null,
+          "auto_update": true,
+          "display_type": "Git",
+          "description": "URL: git@github.com:Iotic-Labs/iotic-charts, Branch: main",
+          "url": "git@github.com:Iotic-Labs/iotic-charts",
+          "branch": "main",
+          "submodule_folder": null,
+          "shallow_clone": false
+        }
+      },
+      "revision": [
+        {
+          "revision_sha": "2cb9c5914791a7bfe91caa86d3503edd9e7fb1c5",
+          "modified_by": "Super Dev <super.dev@iotics.com>",
+          "modified_at": "2021-02-25T12:03:14Z",
+          "commit_message": "JI-2019 fix compatibility with Go 1.16"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "git",
+        "attributes": {
+          "destination": null,
+          "filter": null,
+          "invert_filter": false,
+          "name": null,
+          "auto_update": true,
+          "display_type": "Git",
+          "description": "URL: git@github.com:Iotic-Labs/iotic-service-random, Branch: main",
+          "url": "git@github.com:Iotic-Labs/iotic-service-random",
+          "branch": "main",
+          "submodule_folder": null,
+          "shallow_clone": false
+        }
+      },
+      "revision": [
+        {
+          "revision_sha": "f1beb1aa34646ee20829e271ef974ef98ef0dfd6",
+          "modified_by": "Super User <super.user@iotics.com>",
+          "modified_at": "2021-02-08T16:40:25Z",
+          "commit_message": "JI-1889 Update readme & local mounted instructions\n\n- Fix usage of ref-config folder (no longer mounted for data)"
+        },
+        {
+          "revision_sha": "70c40ab72917d14c6ec126e18351ac04682e5fd3",
+          "modified_by": "Super User <super.user@iotics.com>",
+          "modified_at": "2021-02-08T15:47:21Z",
+          "commit_message": "Fix tools script jar location"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "git",
+        "attributes": {
+          "destination": null,
+          "filter": null,
+          "invert_filter": false,
+          "name": null,
+          "auto_update": true,
+          "display_type": "Git",
+          "description": "URL: git@github.com:Iotic-Labs/docker-iotic-nginx, Branch: main",
+          "url": "git@github.com:Iotic-Labs/docker-iotic-nginx",
+          "branch": "main",
+          "submodule_folder": null,
+          "shallow_clone": false
+        }
+      },
+      "revision": [
+        {
+          "revision_sha": "f78a137ba7eef7fdc9bfcc50ee8c6289ab27ee39",
+          "modified_by": "Super User",
+          "modified_at": "2020-08-21T13:59:22Z",
+          "commit_message": "kick off build"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "git",
+        "attributes": {
+          "destination": null,
+          "filter": null,
+          "invert_filter": false,
+          "name": null,
+          "auto_update": true,
+          "display_type": "Git",
+          "description": "URL: git@github.com:Iotic-Labs/docker-nginx-prometheus-exporter, Branch: main",
+          "url": "git@github.com:Iotic-Labs/docker-nginx-prometheus-exporter",
+          "branch": "main",
+          "submodule_folder": null,
+          "shallow_clone": false
+        }
+      },
+      "revision": [
+        {
+          "revision_sha": "8bbbcf7380f5261fdb29d2db763ae3212c453972",
+          "modified_by": "Super User",
+          "modified_at": "2020-08-20T09:42:49Z",
+          "commit_message": "standard rake file build"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "git",
+        "attributes": {
+          "destination": null,
+          "filter": null,
+          "invert_filter": false,
+          "name": null,
+          "auto_update": true,
+          "display_type": "Git",
+          "description": "URL: git@github.com:Iotic-Labs/docker-certmgr, Branch: main",
+          "url": "git@github.com:Iotic-Labs/docker-certmgr",
+          "branch": "main",
+          "submodule_folder": null,
+          "shallow_clone": false
+        }
+      },
+      "revision": [
+        {
+          "revision_sha": "59895c9c0ce0bd4e2a86b690033ea8b4d7e2d6b1",
+          "modified_by": "Super User <super.user@iotics.com>",
+          "modified_at": "2020-12-10T09:18:27Z",
+          "commit_message": "fixed invalid alpine version"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "git",
+        "attributes": {
+          "destination": null,
+          "filter": null,
+          "invert_filter": false,
+          "name": null,
+          "auto_update": true,
+          "display_type": "Git",
+          "description": "URL: git@github.com:Iotic-Labs/iotic-webbing, Branch: main",
+          "url": "git@github.com:Iotic-Labs/iotic-webbing",
+          "branch": "main",
+          "submodule_folder": null,
+          "shallow_clone": false
+        }
+      },
+      "revision": [
+        {
+          "revision_sha": "566a1094f268657ea0cfdca18cb538d43db4f9f9",
+          "modified_by": "Super User <super.user@iotics.com>",
+          "modified_at": "2021-02-20T12:03:51Z",
+          "commit_message": "JI-1889 Add grpc-code header to ERROR frames\n\n- Allow clients to interpret the GRPC code instead of having to\n parse the whole error message"
+        },
+        {
+          "revision_sha": "7ce3cb441faae785ced76e6b5eda15134ab3efb7",
+          "modified_by": "Super User <super.user@iotics.com>",
+          "modified_at": "2021-02-23T09:19:39Z",
+          "commit_message": "JI-1889 fix: minor pylint warning"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "git",
+        "attributes": {
+          "destination": null,
+          "filter": null,
+          "invert_filter": false,
+          "name": null,
+          "auto_update": true,
+          "display_type": "Git",
+          "description": "URL: git@github.com:Iotic-Labs/docker-waitforport.git, Branch: main",
+          "url": "git@github.com:Iotic-Labs/docker-waitforport.git",
+          "branch": "main",
+          "submodule_folder": null,
+          "shallow_clone": false
+        }
+      },
+      "revision": [
+        {
+          "revision_sha": "0965698f3a962c455f4437311888d51ed0ddf389",
+          "modified_by": "Super User",
+          "modified_at": "2020-10-13T12:54:09Z",
+          "commit_message": "updated default timeout"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "git",
+        "attributes": {
+          "destination": null,
+          "filter": null,
+          "invert_filter": false,
+          "name": null,
+          "auto_update": true,
+          "display_type": "Git",
+          "description": "URL: git@github.com:Iotic-Labs/event-runner-proto.git, Branch: main",
+          "url": "git@github.com:Iotic-Labs/event-runner-proto.git",
+          "branch": "main",
+          "submodule_folder": null,
+          "shallow_clone": false
+        }
+      },
+      "revision": [
+        {
+          "revision_sha": "3d72aef635937cff06c05b6e620479f6fbf47b5a",
+          "modified_by": "Main Dev <main.dev@iotic-labs.com>",
+          "modified_at": "2020-11-30T09:24:57Z",
+          "commit_message": "JI-1736 Update demo after JI-1305 auth\n\n- add jwt token in grpc client with retry if token expired"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "dependency",
+        "attributes": {
+          "name": null,
+          "pipeline": "utils",
+          "stage": "release",
+          "auto_update": true,
+          "display_type": "Pipeline",
+          "description": "utils [ release ]"
+        }
+      },
+      "revision": [
+        {
+          "revision": "utils/89/release/1",
+          "pipeline_counter": "v1.0.89",
+          "completed_at": "2021-03-01T12:55:38Z"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "dependency",
+        "attributes": {
+          "name": null,
+          "pipeline": "iotic-server-core",
+          "stage": "docker_publish",
+          "auto_update": true,
+          "display_type": "Pipeline",
+          "description": "iotic-server-core [ docker_publish ]"
+        }
+      },
+      "revision": [
+        {
+          "revision": "iotic-server-core/75/docker_publish/1",
+          "pipeline_counter": "v0.2.75",
+          "completed_at": "2021-03-08T16:45:18Z"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "dependency",
+        "attributes": {
+          "name": null,
+          "pipeline": "iotic-service-random",
+          "stage": "build",
+          "auto_update": true,
+          "display_type": "Pipeline",
+          "description": "iotic-service-random [ build ]"
+        }
+      },
+      "revision": [
+        {
+          "revision": "iotic-service-random/36/build/1",
+          "pipeline_counter": "v0.0.36",
+          "completed_at": "2021-02-08T17:01:19Z"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "dependency",
+        "attributes": {
+          "name": null,
+          "pipeline": "iotic-service-meta",
+          "stage": "publish",
+          "auto_update": true,
+          "display_type": "Pipeline",
+          "description": "iotic-service-meta [ publish ]"
+        }
+      },
+      "revision": [
+        {
+          "revision": "iotic-service-meta/110/publish/1",
+          "pipeline_counter": "v1.0.110",
+          "completed_at": "2021-03-08T14:16:25Z"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "dependency",
+        "attributes": {
+          "name": null,
+          "pipeline": "iotic-service-proto",
+          "stage": "build",
+          "auto_update": true,
+          "display_type": "Pipeline",
+          "description": "iotic-service-proto [ build ]"
+        }
+      },
+      "revision": [
+        {
+          "revision": "iotic-service-proto/28/build/1",
+          "pipeline_counter": "v0.0.28",
+          "completed_at": "2021-02-25T11:54:26Z"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "dependency",
+        "attributes": {
+          "name": null,
+          "pipeline": "iotic-service",
+          "stage": "docker_publish",
+          "auto_update": true,
+          "display_type": "Pipeline",
+          "description": "iotic-service [ docker_publish ]"
+        }
+      },
+      "revision": [
+        {
+          "revision": "iotic-service/150/docker_publish/1",
+          "pipeline_counter": "v1.0.150",
+          "completed_at": "2021-03-10T09:40:24Z"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "dependency",
+        "attributes": {
+          "name": null,
+          "pipeline": "docker-nginx",
+          "stage": "build",
+          "auto_update": true,
+          "display_type": "Pipeline",
+          "description": "docker-nginx [ build ]"
+        }
+      },
+      "revision": [
+        {
+          "revision": "docker-nginx/11/build/1",
+          "pipeline_counter": "1.18.0.11",
+          "completed_at": "2020-08-21T13:59:58Z"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "dependency",
+        "attributes": {
+          "name": null,
+          "pipeline": "docker-nginx-prometheus-exporter",
+          "stage": "build",
+          "auto_update": true,
+          "display_type": "Pipeline",
+          "description": "docker-nginx-prometheus-exporter [ build ]"
+        }
+      },
+      "revision": [
+        {
+          "revision": "docker-nginx-prometheus-exporter/2/build/1",
+          "pipeline_counter": "0.8.0.2",
+          "completed_at": "2020-08-20T09:52:19Z"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "dependency",
+        "attributes": {
+          "name": null,
+          "pipeline": "docker-certmgr",
+          "stage": "build",
+          "auto_update": true,
+          "display_type": "Pipeline",
+          "description": "docker-certmgr [ build ]"
+        }
+      },
+      "revision": [
+        {
+          "revision": "docker-certmgr/5/build/1",
+          "pipeline_counter": "0.1.5",
+          "completed_at": "2020-12-10T09:21:12Z"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "dependency",
+        "attributes": {
+          "name": null,
+          "pipeline": "iotic-webbing",
+          "stage": "publish-pkg",
+          "auto_update": true,
+          "display_type": "Pipeline",
+          "description": "iotic-webbing [ publish-pkg ]"
+        }
+      },
+      "revision": [
+        {
+          "revision": "iotic-webbing/92/publish-pkg/1",
+          "pipeline_counter": "v1.0.92",
+          "completed_at": "2021-02-23T09:54:09Z"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "dependency",
+        "attributes": {
+          "name": null,
+          "pipeline": "docker-waitforport",
+          "stage": "build",
+          "auto_update": true,
+          "display_type": "Pipeline",
+          "description": "d-docker-waitforport [ build ]"
+        }
+      },
+      "revision": [
+        {
+          "revision": "docker-waitforport/10/build/2",
+          "pipeline_counter": "v1.0.10",
+          "completed_at": "2020-11-20T09:15:25Z"
+        }
+      ]
+    },
+    {
+      "material": {
+        "type": "dependency",
+        "attributes": {
+          "name": null,
+          "pipeline": "event-runner-proto",
+          "stage": "test-publish",
+          "auto_update": true,
+          "display_type": "Pipeline",
+          "description": "event-runner-proto[ test-publish ]"
+        }
+      },
+      "revision": [
+        {
+          "revision": "event-runner-proto/37/test-publish/1",
+          "pipeline_counter": "v0.1.37",
+          "completed_at": "2020-12-10T08:17:34Z"
+        }
+      ]
+    }
+  ]
+}

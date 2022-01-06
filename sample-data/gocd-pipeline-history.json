@@ -1,0 +1,273 @@
+{
+  "name": "iotic-node-package",
+  "counter": 390,
+  "label": "2.0.390",
+  "natural_order": 388.0,
+  "can_run": true,
+  "preparing_to_schedule": false,
+  "comment": null,
+  "scheduled_date": 1615391237492,
+  "build_cause": {
+    "trigger_message": "Forced by anonymous",
+    "trigger_forced": true,
+    "approver": "anonymous",
+    "material_revisions": [
+      {
+        "changed": false,
+        "material": {
+          "name": "git",
+          "fingerprint": "32c319e07917879a6f57293d5e19e898cf4d12dd56831e6a06839fcb3254b848",
+          "type": "Git",
+          "description": "URL: git@github.com:Iotic-Labs/iotic-chart, Branch: master"
+        },
+        "modifications": [
+          {
+            "revision": "2cb9c5914791a7bfe91caa86d3503edd9e7fb1c5",
+            "modified_time": 1614254594000,
+            "user_name": "Super Dev <super.dev@iotics.com>",
+            "comment": "JI-2019 fix compatibility with Go 1.16",
+            "email_address": null
+          }
+        ]
+      },
+      {
+        "changed": false,
+        "material": {
+          "name": "ioticsctl",
+          "fingerprint": "87c6bfcfee1052d58b1a2a3ac27848a9717ce4b2e2fe896268870f7dd2b9f518",
+          "type": "Pipeline",
+          "description": "ioticsctl [ release ]"
+        },
+        "modifications": [
+          {
+            "revision": "ioticsctl/89/release/1",
+            "modified_time": 1614603338900,
+            "user_name": null,
+            "comment": null,
+            "email_address": null
+          }
+        ]
+      },
+      {
+        "changed": false,
+        "material": {
+          "name": "iotic-core",
+          "fingerprint": "f6386e2285458a4d9712500cc34ce57a6680442433fed3f37b1daf20377a150e",
+          "type": "Pipeline",
+          "description": "iotic-core [ docker_publish ]"
+        },
+        "modifications": [
+          {
+            "revision": "iotic-core/75/docker_publish/1",
+            "modified_time": 1615221918203,
+            "user_name": null,
+            "comment": null,
+            "email_address": null
+          }
+        ]
+      },
+      {
+        "changed": false,
+        "material": {
+          "name": "iotic-service-fuseki",
+          "fingerprint": "365b4c9a247c8af235522d47774e4ed5b5818d0eb4af18f49794d6fefd2733d9",
+          "type": "Pipeline",
+          "description": "iotic-service-fuseki [ build ]"
+        },
+        "modifications": [
+          {
+            "revision": "iotic-service-fuseki/36/build/1",
+            "modified_time": 1612803679746,
+            "user_name": null,
+            "comment": null,
+            "email_address": null
+          }
+        ]
+      },
+      {
+        "changed": false,
+        "material": {
+          "name": "iotic-service-redis",
+          "fingerprint": "b2ecc0fffe438d925e76262cafbf8cf7bf7ce4bd70280a4c54406b72a34442f4",
+          "type": "Pipeline",
+          "description": "iotic-service-redis [ build ]"
+        },
+        "modifications": [
+          {
+            "revision": "iotic-service-redis/28/build/1",
+            "modified_time": 1614254066227,
+            "user_name": null,
+            "comment": null,
+            "email_address": null
+          }
+        ]
+      },
+      {
+        "changed": false,
+        "material": {
+          "name": "iotic-service-eventbus",
+          "fingerprint": "e02731a4f2be145aef87ede806c5c1a933b5109b5517faa17944cf8a1d673487",
+          "type": "Pipeline",
+          "description": "iotic-service-eventbus [ docker_publish ]"
+        },
+        "modifications": [
+          {
+            "revision": "iotic-service-eventbus/150/docker_publish/1",
+            "modified_time": 1615369224204,
+            "user_name": null,
+            "comment": null,
+            "email_address": null
+          }
+        ]
+      },
+      {
+        "changed": false,
+        "material": {
+          "name": "iotic-service-metadata",
+          "fingerprint": "6f6293862f737284d25d4f9bf27868afe3439596c708af5e25b7e884c53c2887",
+          "type": "Pipeline",
+          "description": "iotic-service-metadata [ publish ]"
+        },
+        "modifications": [
+          {
+            "revision": "iotic-service-metadata/110/publish/1",
+            "modified_time": 1615212985919,
+            "user_name": null,
+            "comment": null,
+            "email_address": null
+          }
+        ]
+      },
+      {
+        "changed": false,
+        "material": {
+          "name": "dev-docker-iotic-node-nginx",
+          "fingerprint": "05f5e9342e8a9673ee0fb30a34755c621028e036744a2cd223984b05279280ed",
+          "type": "Pipeline",
+          "description": "dev-docker-iotic-node-nginx [ build ]"
+        },
+        "modifications": [
+          {
+            "revision": "dev-docker-iotic-node-nginx/11/build/1",
+            "modified_time": 1598018398383,
+            "user_name": null,
+            "comment": null,
+            "email_address": null
+          }
+        ]
+      },
+      {
+        "changed": false,
+        "material": {
+          "name": "dev-docker-iotic-node-nginx-prometheus-exporter",
+          "fingerprint": "0acf3b9b6a243a117b8bd39259ab3b49b47fe70c302a05d6acaf72c9b28a8d87",
+          "type": "Pipeline",
+          "description": "dev-docker-iotic-node-nginx-prometheus-exporter [ build ]"
+        },
+        "modifications": [
+          {
+            "revision": "dev-docker-iotic-node-nginx-prometheus-exporter/2/build/1",
+            "modified_time": 1597917139939,
+            "user_name": null,
+            "comment": null,
+            "email_address": null
+          }
+        ]
+      },
+      {
+        "changed": false,
+        "material": {
+          "name": "dev-docker-iotic-node-certmgr",
+          "fingerprint": "55466874d33087635d04d86f749e690a2a2736d9a816f2c4582dfb336b801222",
+          "type": "Pipeline",
+          "description": "dev-docker-iotic-node-certmgr [ build ]"
+        },
+        "modifications": [
+          {
+            "revision": "dev-docker-iotic-node-certmgr/5/build/1",
+            "modified_time": 1607592072012,
+            "user_name": null,
+            "comment": null,
+            "email_address": null
+          }
+        ]
+      },
+      {
+        "changed": false,
+        "material": {
+          "name": "iotic-web",
+          "fingerprint": "156d85ce8e6dbcb96514ff152dfb90c7064742d2ba951e93f97fc1844f8593d0",
+          "type": "Pipeline",
+          "description": "iotic-web [ publish-pkg ]"
+        },
+        "modifications": [
+          {
+            "revision": "iotic-web/92/publish-pkg/1",
+            "modified_time": 1614074049249,
+            "user_name": null,
+            "comment": null,
+            "email_address": null
+          }
+        ]
+      },
+      {
+        "changed": false,
+        "material": {
+          "name": "iotics-event-runner",
+          "fingerprint": "e364afadfc5a67d5c71911dc99eb580743c3c7bb2291d6006a80b8cb27675432",
+          "type": "Pipeline",
+          "description": "iotics-event-runner [ test-publish ]"
+        },
+        "modifications": [
+          {
+            "revision": "iotics-event-runner/37/test-publish/1",
+            "modified_time": 1607588254002,
+            "user_name": null,
+            "comment": null,
+            "email_address": null
+          }
+        ]
+      },
+      {
+        "changed": false,
+        "material": {
+          "name": "dev-docker-waitforport",
+          "fingerprint": "3f54aa632336763d1a618cb670cc6733a3f4ce6b94a2b251cda14047f48e583a",
+          "type": "Pipeline",
+          "description": "dev-docker-waitforport [ build ]"
+        },
+        "modifications": [
+          {
+            "revision": "dev-docker-waitforport/10/build/2",
+            "modified_time": 1605863725686,
+            "user_name": null,
+            "comment": null,
+            "email_address": null
+          }
+        ]
+      }
+    ]
+  },
+  "stages": [
+    {
+      "result": "Passed",
+      "status": "Passed",
+      "rerun_of_counter": null,
+      "name": "package",
+      "counter": "2",
+      "scheduled": true,
+      "approval_type": "success",
+      "approved_by": "best.dev@iotics.com",
+      "operate_permission": true,
+      "can_run": true,
+      "jobs": [
+        {
+          "name": "package",
+          "scheduled_date": 1615391237492,
+          "state": "Completed",
+          "result": "Passed"
+        }
+      ]
+    }
+  ]
+}

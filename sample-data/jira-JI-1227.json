@@ -1,0 +1,995 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "17736",
+  "self": "https://<account>.atlassian.net/rest/agile/1.0/issue/17736",
+  "key": "JI-1227",
+  "fields": {
+    "statuscategorychangedate": "2021-03-10T10:18:32.191+0000",
+    "customfield_10070": null,
+    "customfield_10071": null,
+    "customfield_10072": null,
+    "customfield_10073": null,
+    "customfield_10074": null,
+    "customfield_10075": null,
+    "customfield_10076": null,
+    "customfield_10077": null,
+    "fixVersions": [],
+    "customfield_10110": "New gRPC/REST service available: “Get REMOTE feed last shared value”",
+    "customfield_10078": null,
+    "resolution": null,
+    "customfield_10079": null,
+    "customfield_10104": null,
+    "customfield_10105": null,
+    "customfield_10106": null,
+    "customfield_10107": null,
+    "customfield_10109": {
+      "self": "https://<account>.atlassian.net/rest/api/2/customFieldOption/10164",
+      "value": "Yes",
+      "id": "10164"
+    },
+    "lastViewed": "2021-03-11T14:22:50.623+0000",
+    "customfield_10060": null,
+    "customfield_10061": null,
+    "customfield_10062": null,
+    "customfield_10063": null,
+    "customfield_10064": null,
+    "customfield_10065": null,
+    "epic": {
+      "id": 20442,
+      "key": "FO-1921",
+      "self": "https://<account>.atlassian.net/rest/agile/1.0/epic/20442",
+      "name": "Manage remote feed share edge cases",
+      "summary": "Manage remote feed share edge cases",
+      "color": { "key": "color_4" },
+      "done": false
+    },
+    "customfield_10066": null,
+    "customfield_10100": null,
+    "priority": {
+      "self": "https://<account>.atlassian.net/rest/api/2/priority/3",
+      "iconUrl": "https://<account>.atlassian.net/images/icons/priorities/medium.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "customfield_10067": {
+      "errorMessage": "The service project you are trying to view does not exist.",
+      "i18nErrorMessage": {
+        "i18nKey": "sd.jsm.agent.servicedesk.error.servicedesk.missing",
+        "parameters": []
+      }
+    },
+    "customfield_10101": null,
+    "customfield_10068": null,
+    "customfield_10069": null,
+    "customfield_10102": null,
+    "customfield_10103": null,
+    "labels": ["release_notes_required"],
+    "timeestimate": null,
+    "aggregatetimeoriginalestimate": null,
+    "versions": [],
+    "issuelinks": [
+      {
+        "id": "20950",
+        "self": "https://<account>.atlassian.net/rest/api/2/issueLink/20950",
+        "type": {
+          "id": "10000",
+          "name": "Blocks",
+          "inward": "is blocked by",
+          "outward": "blocks",
+          "self": "https://<account>.atlassian.net/rest/api/2/issueLinkType/10000"
+        },
+        "outwardIssue": {
+          "id": "19974",
+          "key": "CL-817",
+          "self": "https://<account>.atlassian.net/rest/api/2/issue/19974",
+          "fields": {
+            "summary": "Update widgets to fetch data from remote host",
+            "status": {
+              "self": "https://<account>.atlassian.net/rest/api/2/status/10036",
+              "description": "",
+              "iconUrl": "https://<account>.atlassian.net/images/icons/statuses/generic.png",
+              "name": "To Do",
+              "id": "10036",
+              "statusCategory": {
+                "self": "https://<account>.atlassian.net/rest/api/2/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://<account>.atlassian.net/rest/api/2/priority/3",
+              "iconUrl": "https://<account>.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://<account>.atlassian.net/rest/api/2/issuetype/10001",
+              "id": "10001",
+              "description": "Functionality or a feature expressed as a user goal.",
+              "iconUrl": "https://<account>.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10315
+            }
+          }
+        }
+      },
+      {
+        "id": "17478",
+        "self": "https://<account>.atlassian.net/rest/api/2/issueLink/17478",
+        "type": {
+          "id": "10001",
+          "name": "Cloners",
+          "inward": "is cloned by",
+          "outward": "clones",
+          "self": "https://<account>.atlassian.net/rest/api/2/issueLinkType/10001"
+        },
+        "outwardIssue": {
+          "id": "17383",
+          "key": "FO-959",
+          "self": "https://<account>.atlassian.net/rest/api/2/issue/17383",
+          "fields": {
+            "summary": "Create the iotic web api to get last published value for a local point",
+            "status": {
+              "self": "https://<account>.atlassian.net/rest/api/2/status/10013",
+              "description": "",
+              "iconUrl": "https://<account>.atlassian.net/",
+              "name": "Done",
+              "id": "10013",
+              "statusCategory": {
+                "self": "https://<account>.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://<account>.atlassian.net/rest/api/2/priority/3",
+              "iconUrl": "https://<account>.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://<account>.atlassian.net/rest/api/2/issuetype/10001",
+              "id": "10001",
+              "description": "Functionality or a feature expressed as a user goal.",
+              "iconUrl": "https://<account>.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10315
+            }
+          }
+        }
+      },
+      {
+        "id": "18630",
+        "self": "https://<account>.atlassian.net/rest/api/2/issueLink/18630",
+        "type": {
+          "id": "10103",
+          "name": "Gantt End to Start",
+          "inward": "has to be done after",
+          "outward": "has to be done before",
+          "self": "https://<account>.atlassian.net/rest/api/2/issueLinkType/10103"
+        },
+        "outwardIssue": {
+          "id": "17741",
+          "key": "FO-1257",
+          "self": "https://<account>.atlassian.net/rest/api/2/issue/17741",
+          "fields": {
+            "summary": "Manage interests: retrieve last published value for a feed on subscribe",
+            "status": {
+              "self": "https://<account>.atlassian.net/rest/api/2/status/10036",
+              "description": "",
+              "iconUrl": "https://<account>.atlassian.net/images/icons/statuses/generic.png",
+              "name": "To Do",
+              "id": "10036",
+              "statusCategory": {
+                "self": "https://<account>.atlassian.net/rest/api/2/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://<account>.atlassian.net/rest/api/2/priority/3",
+              "iconUrl": "https://<account>.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://<account>.atlassian.net/rest/api/2/issuetype/10001",
+              "id": "10001",
+              "description": "Functionality or a feature expressed as a user goal.",
+              "iconUrl": "https://<account>.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10315
+            }
+          }
+        }
+      },
+      {
+        "id": "18488",
+        "self": "https://<account>.atlassian.net/rest/api/2/issueLink/18488",
+        "type": {
+          "id": "10103",
+          "name": "Gantt End to Start",
+          "inward": "has to be done after",
+          "outward": "has to be done before",
+          "self": "https://<account>.atlassian.net/rest/api/2/issueLinkType/10103"
+        },
+        "inwardIssue": {
+          "id": "18822",
+          "key": "FO-1372",
+          "self": "https://<account>.atlassian.net/rest/api/2/issue/18822",
+          "fields": {
+            "summary": "Manage interests: Request/response over iotic-core streams",
+            "status": {
+              "self": "https://<account>.atlassian.net/rest/api/2/status/10013",
+              "description": "",
+              "iconUrl": "https://<account>.atlassian.net/",
+              "name": "Done",
+              "id": "10013",
+              "statusCategory": {
+                "self": "https://<account>.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://<account>.atlassian.net/rest/api/2/priority/3",
+              "iconUrl": "https://<account>.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://<account>.atlassian.net/rest/api/2/issuetype/10001",
+              "id": "10001",
+              "description": "Functionality or a feature expressed as a user goal.",
+              "iconUrl": "https://<account>.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10315
+            }
+          }
+        }
+      },
+      {
+        "id": "18878",
+        "self": "https://<account>.atlassian.net/rest/api/2/issueLink/18878",
+        "type": {
+          "id": "10003",
+          "name": "Relates",
+          "inward": "relates to",
+          "outward": "relates to",
+          "self": "https://<account>.atlassian.net/rest/api/2/issueLinkType/10003"
+        },
+        "outwardIssue": {
+          "id": "19139",
+          "key": "FO-1451",
+          "self": "https://<account>.atlassian.net/rest/api/2/issue/19139",
+          "fields": {
+            "summary": "Perform Robustness test for remote feed share",
+            "status": {
+              "self": "https://<account>.atlassian.net/rest/api/2/status/1",
+              "description": "The issue is open and ready for the assignee to start work on it.",
+              "iconUrl": "https://<account>.atlassian.net/images/icons/statuses/open.png",
+              "name": "New",
+              "id": "1",
+              "statusCategory": {
+                "self": "https://<account>.atlassian.net/rest/api/2/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://<account>.atlassian.net/rest/api/2/priority/3",
+              "iconUrl": "https://<account>.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://<account>.atlassian.net/rest/api/2/issuetype/10001",
+              "id": "10001",
+              "description": "Functionality or a feature expressed as a user goal.",
+              "iconUrl": "https://<account>.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10315
+            }
+          }
+        }
+      },
+      {
+        "id": "20980",
+        "self": "https://<account>.atlassian.net/rest/api/2/issueLink/20980",
+        "type": {
+          "id": "10003",
+          "name": "Relates",
+          "inward": "relates to",
+          "outward": "relates to",
+          "self": "https://<account>.atlassian.net/rest/api/2/issueLinkType/10003"
+        },
+        "outwardIssue": {
+          "id": "21010",
+          "key": "FO-2054",
+          "self": "https://<account>.atlassian.net/rest/api/2/issue/21010",
+          "fields": {
+            "summary": "remote get last published value leftover ",
+            "status": {
+              "self": "https://<account>.atlassian.net/rest/api/2/status/1",
+              "description": "The issue is open and ready for the assignee to start work on it.",
+              "iconUrl": "https://<account>.atlassian.net/images/icons/statuses/open.png",
+              "name": "New",
+              "id": "1",
+              "statusCategory": {
+                "self": "https://<account>.atlassian.net/rest/api/2/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://<account>.atlassian.net/rest/api/2/priority/3",
+              "iconUrl": "https://<account>.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://<account>.atlassian.net/rest/api/2/issuetype/10001",
+              "id": "10001",
+              "description": "Functionality or a feature expressed as a user goal.",
+              "iconUrl": "https://<account>.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10315
+            }
+          }
+        }
+      },
+      {
+        "id": "17486",
+        "self": "https://<account>.atlassian.net/rest/api/2/issueLink/17486",
+        "type": {
+          "id": "10003",
+          "name": "Relates",
+          "inward": "relates to",
+          "outward": "relates to",
+          "self": "https://<account>.atlassian.net/rest/api/2/issueLinkType/10003"
+        },
+        "inwardIssue": {
+          "id": "17574",
+          "key": "FO-1019",
+          "self": "https://<account>.atlassian.net/rest/api/2/issue/17574",
+          "fields": {
+            "summary": "create interest for remote retrieval of the point",
+            "status": {
+              "self": "https://<account>.atlassian.net/rest/api/2/status/10013",
+              "description": "",
+              "iconUrl": "https://<account>.atlassian.net/",
+              "name": "Done",
+              "id": "10013",
+              "statusCategory": {
+                "self": "https://<account>.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://<account>.atlassian.net/rest/api/2/priority/3",
+              "iconUrl": "https://<account>.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://<account>.atlassian.net/rest/api/2/issuetype/10003",
+              "id": "10003",
+              "description": "A small piece of work that's part of a larger task.",
+              "iconUrl": "https://<account>.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+              "name": "Sub-task",
+              "subtask": true,
+              "avatarId": 10316
+            }
+          }
+        }
+      },
+      {
+        "id": "18394",
+        "self": "https://<account>.atlassian.net/rest/api/2/issueLink/18394",
+        "type": {
+          "id": "10003",
+          "name": "Relates",
+          "inward": "relates to",
+          "outward": "relates to",
+          "self": "https://<account>.atlassian.net/rest/api/2/issueLinkType/10003"
+        },
+        "inwardIssue": {
+          "id": "18693",
+          "key": "FO-1319",
+          "self": "https://<account>.atlassian.net/rest/api/2/issue/18693",
+          "fields": {
+            "summary": "Manage interests: remote get last value",
+            "status": {
+              "self": "https://<account>.atlassian.net/rest/api/2/status/10013",
+              "description": "",
+              "iconUrl": "https://<account>.atlassian.net/",
+              "name": "Done",
+              "id": "10013",
+              "statusCategory": {
+                "self": "https://<account>.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://<account>.atlassian.net/rest/api/2/priority/3",
+              "iconUrl": "https://<account>.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://<account>.atlassian.net/rest/api/2/issuetype/10001",
+              "id": "10001",
+              "description": "Functionality or a feature expressed as a user goal.",
+              "iconUrl": "https://<account>.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10315
+            }
+          }
+        }
+      },
+      {
+        "id": "20949",
+        "self": "https://<account>.atlassian.net/rest/api/2/issueLink/20949",
+        "type": {
+          "id": "10003",
+          "name": "Relates",
+          "inward": "relates to",
+          "outward": "relates to",
+          "self": "https://<account>.atlassian.net/rest/api/2/issueLinkType/10003"
+        },
+        "inwardIssue": {
+          "id": "19974",
+          "key": "CL-817",
+          "self": "https://<account>.atlassian.net/rest/api/2/issue/19974",
+          "fields": {
+            "summary": "Update widgets to fetch data from remote host",
+            "status": {
+              "self": "https://<account>.atlassian.net/rest/api/2/status/10036",
+              "description": "",
+              "iconUrl": "https://<account>.atlassian.net/images/icons/statuses/generic.png",
+              "name": "To Do",
+              "id": "10036",
+              "statusCategory": {
+                "self": "https://<account>.atlassian.net/rest/api/2/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://<account>.atlassian.net/rest/api/2/priority/3",
+              "iconUrl": "https://<account>.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://<account>.atlassian.net/rest/api/2/issuetype/10001",
+              "id": "10001",
+              "description": "Functionality or a feature expressed as a user goal.",
+              "iconUrl": "https://<account>.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10315
+            }
+          }
+        }
+      }
+    ],
+    "assignee": null,
+    "status": {
+      "self": "https://<account>.atlassian.net/rest/api/2/status/10129",
+      "description": "",
+      "iconUrl": "https://<account>.atlassian.net/images/icons/statuses/generic.png",
+      "name": "Product Review",
+      "id": "10129",
+      "statusCategory": {
+        "self": "https://<account>.atlassian.net/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "In Progress"
+      }
+    },
+    "components": [],
+    "customfield_10050": null,
+    "customfield_10052": null,
+    "customfield_10053": {
+      "errorMessage": "The service project you are trying to view does not exist.",
+      "i18nErrorMessage": {
+        "i18nKey": "sd.jsm.agent.servicedesk.error.servicedesk.missing",
+        "parameters": []
+      }
+    },
+    "customfield_10054": null,
+    "customfield_10057": null,
+    "customfield_10058": null,
+    "customfield_10059": null,
+    "customfield_10049": null,
+    "aggregatetimeestimate": null,
+    "creator": {
+      "self": "https://<account>.atlassian.net/rest/api/2/user?accountId=5de4decccdc2d20d0537ed7e",
+      "accountId": "5de4decccdc2d20d0537ed7e",
+      "emailAddress": "super.dev@iotics.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/32"
+      },
+      "displayName": "Super Dev",
+      "active": true,
+      "timeZone": "Europe/London",
+      "accountType": "atlassian"
+    },
+    "subtasks": [
+      {
+        "id": "17737",
+        "key": "FO-1253",
+        "self": "https://<account>.atlassian.net/rest/api/2/issue/17737",
+        "fields": {
+          "summary": "routes and swagger spec + web part",
+          "status": {
+            "self": "https://<account>.atlassian.net/rest/api/2/status/10013",
+            "description": "",
+            "iconUrl": "https://<account>.atlassian.net/",
+            "name": "Done",
+            "id": "10013",
+            "statusCategory": {
+              "self": "https://<account>.atlassian.net/rest/api/2/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://<account>.atlassian.net/rest/api/2/priority/3",
+            "iconUrl": "https://<account>.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://<account>.atlassian.net/rest/api/2/issuetype/10003",
+            "id": "10003",
+            "description": "A small piece of work that's part of a larger task.",
+            "iconUrl": "https://<account>.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10316
+          }
+        }
+      },
+      {
+        "id": "17738",
+        "key": "FO-1254",
+        "self": "https://<account>.atlassian.net/rest/api/2/issue/17738",
+        "fields": {
+          "summary": "eventbus (grpc server + strategy + DB)",
+          "status": {
+            "self": "https://<account>.atlassian.net/rest/api/2/status/10013",
+            "description": "",
+            "iconUrl": "https://<account>.atlassian.net/",
+            "name": "Done",
+            "id": "10013",
+            "statusCategory": {
+              "self": "https://<account>.atlassian.net/rest/api/2/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://<account>.atlassian.net/rest/api/2/priority/3",
+            "iconUrl": "https://<account>.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://<account>.atlassian.net/rest/api/2/issuetype/10003",
+            "id": "10003",
+            "description": "A small piece of work that's part of a larger task.",
+            "iconUrl": "https://<account>.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10316
+          }
+        }
+      },
+      {
+        "id": "17739",
+        "key": "FO-1255",
+        "self": "https://<account>.atlassian.net/rest/api/2/issue/17739",
+        "fields": {
+          "summary": "iotic-host test",
+          "status": {
+            "self": "https://<account>.atlassian.net/rest/api/2/status/10013",
+            "description": "",
+            "iconUrl": "https://<account>.atlassian.net/",
+            "name": "Done",
+            "id": "10013",
+            "statusCategory": {
+              "self": "https://<account>.atlassian.net/rest/api/2/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://<account>.atlassian.net/rest/api/2/priority/3",
+            "iconUrl": "https://<account>.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://<account>.atlassian.net/rest/api/2/issuetype/10003",
+            "id": "10003",
+            "description": "A small piece of work that's part of a larger task.",
+            "iconUrl": "https://<account>.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10316
+          }
+        }
+      },
+      {
+        "id": "17740",
+        "key": "FO-1256",
+        "self": "https://<account>.atlassian.net/rest/api/2/issue/17740",
+        "fields": {
+          "summary": "store last published value for a feed",
+          "status": {
+            "self": "https://<account>.atlassian.net/rest/api/2/status/10013",
+            "description": "",
+            "iconUrl": "https://<account>.atlassian.net/",
+            "name": "Done",
+            "id": "10013",
+            "statusCategory": {
+              "self": "https://<account>.atlassian.net/rest/api/2/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://<account>.atlassian.net/rest/api/2/priority/3",
+            "iconUrl": "https://<account>.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://<account>.atlassian.net/rest/api/2/issuetype/10003",
+            "id": "10003",
+            "description": "A small piece of work that's part of a larger task.",
+            "iconUrl": "https://<account>.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10316
+          }
+        }
+      },
+      {
+        "id": "17742",
+        "key": "FO-1258",
+        "self": "https://<account>.atlassian.net/rest/api/2/issue/17742",
+        "fields": {
+          "summary": "create interest for remote retrieval of the point",
+          "status": {
+            "self": "https://<account>.atlassian.net/rest/api/2/status/10013",
+            "description": "",
+            "iconUrl": "https://<account>.atlassian.net/",
+            "name": "Done",
+            "id": "10013",
+            "statusCategory": {
+              "self": "https://<account>.atlassian.net/rest/api/2/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://<account>.atlassian.net/rest/api/2/priority/3",
+            "iconUrl": "https://<account>.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://<account>.atlassian.net/rest/api/2/issuetype/10003",
+            "id": "10003",
+            "description": "A small piece of work that's part of a larger task.",
+            "iconUrl": "https://<account>.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10316
+          }
+        }
+      },
+      {
+        "id": "17743",
+        "key": "FO-1259",
+        "self": "https://<account>.atlassian.net/rest/api/2/issue/17743",
+        "fields": {
+          "summary": "new rpc for Interest service to retrieve value",
+          "status": {
+            "self": "https://<account>.atlassian.net/rest/api/2/status/10013",
+            "description": "",
+            "iconUrl": "https://<account>.atlassian.net/",
+            "name": "Done",
+            "id": "10013",
+            "statusCategory": {
+              "self": "https://<account>.atlassian.net/rest/api/2/statuscategory/3",
+              "id": 3,
+              "key": "done",
+              "colorName": "green",
+              "name": "Done"
+            }
+          },
+          "priority": {
+            "self": "https://<account>.atlassian.net/rest/api/2/priority/3",
+            "iconUrl": "https://<account>.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://<account>.atlassian.net/rest/api/2/issuetype/10003",
+            "id": "10003",
+            "description": "A small piece of work that's part of a larger task.",
+            "iconUrl": "https://<account>.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+            "name": "Sub-task",
+            "subtask": true,
+            "avatarId": 10316
+          }
+        }
+      }
+    ],
+    "reporter": {
+      "self": "https://<account>.atlassian.net/rest/api/2/user?accountId=5cd1490709f2de0dc74fe919",
+      "accountId": "5cd1490709f2de0dc74fe919",
+      "emailAddress": "fabulous.dev@iotics.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cd1490709f2de0dc74fe919/d99d5437-b808-4ebb-b14e-51fbfa491b4f/48",
+        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cd1490709f2de0dc74fe919/d99d5437-b808-4ebb-b14e-51fbfa491b4f/24",
+        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cd1490709f2de0dc74fe919/d99d5437-b808-4ebb-b14e-51fbfa491b4f/16",
+        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cd1490709f2de0dc74fe919/d99d5437-b808-4ebb-b14e-51fbfa491b4f/32"
+      },
+      "displayName": "Fabulous Dev",
+      "active": true,
+      "timeZone": "Europe/London",
+      "accountType": "atlassian"
+    },
+    "customfield_10043": null,
+    "customfield_10044": null,
+    "aggregateprogress": { "progress": 0, "total": 0 },
+    "customfield_10045": null,
+    "customfield_10046": null,
+    "customfield_10047": null,
+    "customfield_10048": [],
+    "customfield_10038": null,
+    "closedSprints": [
+      {
+        "id": 255,
+        "self": "https://<account>.atlassian.net/rest/agile/1.0/sprint/255",
+        "state": "closed",
+        "name": "Core Team Sprint 34",
+        "startDate": "2020-10-07T15:00:31.844Z",
+        "endDate": "2020-10-21T08:00:00.000Z",
+        "completeDate": "2020-10-21T08:03:10.645Z",
+        "originBoardId": 123,
+        "goal": "Enable remote describe of a twin between two hosts"
+      }
+    ],
+    "progress": { "progress": 0, "total": 0 },
+    "votes": {
+      "self": "https://<account>.atlassian.net/rest/api/2/issue/FO-1227/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": { "startAt": 0, "maxResults": 20, "total": 0, "worklogs": [] },
+    "issuetype": {
+      "self": "https://<account>.atlassian.net/rest/api/2/issuetype/10001",
+      "id": "10001",
+      "description": "Functionality or a feature expressed as a user goal.",
+      "iconUrl": "https://<account>.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+      "name": "Story",
+      "subtask": false,
+      "avatarId": 10315
+    },
+    "timespent": null,
+    "sprint": {
+      "id": 327,
+      "self": "https://<account>.atlassian.net/rest/agile/1.0/sprint/327",
+      "state": "active",
+      "name": "Host Sprint 44",
+      "startDate": "2021-03-03T12:07:09.624Z",
+      "endDate": "2021-03-17T09:00:00.000Z",
+      "originBoardId": 118,
+      "goal": "Complete FPP preparation & set-up in order to onboard external users. Sprint champion: Tim"
+    },
+    "project": {
+      "self": "https://<account>.atlassian.net/rest/api/2/project/10032",
+      "id": "10032",
+      "key": "FO",
+      "name": "Host",
+      "projectTypeKey": "software",
+      "simplified": false,
+      "avatarUrls": {
+        "48x48": "https://<account>.atlassian.net/secure/projectavatar?pid=10032&avatarId=10614",
+        "24x24": "https://<account>.atlassian.net/secure/projectavatar?size=small&s=small&pid=10032&avatarId=10614",
+        "16x16": "https://<account>.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10032&avatarId=10614",
+        "32x32": "https://<account>.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10032&avatarId=10614"
+      },
+      "projectCategory": {
+        "self": "https://<account>.atlassian.net/rest/api/2/projectCategory/10003",
+        "id": "10003",
+        "description": "",
+        "name": "Engineering"
+      }
+    },
+    "customfield_10033": 0.0,
+    "aggregatetimespent": null,
+    "customfield_10034": null,
+    "customfield_10035": null,
+    "customfield_10036": null,
+    "customfield_10037": null,
+    "customfield_10027": null,
+    "customfield_10028": null,
+    "resolutiondate": null,
+    "workratio": -1,
+    "watches": {
+      "self": "https://<account>.atlassian.net/rest/api/2/issue/FO-1227/watchers",
+      "watchCount": 1,
+      "isWatching": true
+    },
+    "issuerestriction": { "issuerestrictions": {}, "shouldDisplay": false },
+    "created": "2020-07-22T10:49:15.074+0100",
+    "customfield_10020": null,
+    "customfield_10021": [
+      {
+        "id": 327,
+        "name": "Host Sprint 44",
+        "state": "active",
+        "boardId": 118,
+        "goal": "Complete FPP preparation & set-up in order to onboard external users. Sprint champion: Tim",
+        "startDate": "2021-03-03T12:07:09.624Z",
+        "endDate": "2021-03-17T09:00:00.000Z"
+      },
+      {
+        "id": 255,
+        "name": "Core Team Sprint 34",
+        "state": "closed",
+        "boardId": 123,
+        "goal": "Enable remote describe of a twin between two hosts",
+        "startDate": "2020-10-07T15:00:31.844Z",
+        "endDate": "2020-10-21T08:00:00.000Z",
+        "completeDate": "2020-10-21T08:03:10.645Z"
+      }
+    ],
+    "customfield_10022": "1|hzzy0v:",
+    "customfield_10025": null,
+    "customfield_10026": 3.0,
+    "customfield_10016": null,
+    "customfield_10017": null,
+    "customfield_10018": {
+      "hasEpicLinkFieldDependency": false,
+      "showField": false,
+      "nonEditableReason": {
+        "reason": "EPIC_LINK_SHOULD_BE_USED",
+        "message": "To set an epic as the parent, use the epic link instead"
+      }
+    },
+    "customfield_10019": "2020-10-21T14:58:09.168+0100",
+    "updated": "2021-03-11T14:22:58.253+0000",
+    "customfield_10090": null,
+    "timeoriginalestimate": null,
+    "customfield_10095": null,
+    "description": "*Story*\nAs a Apps Manager team\nI want to test get last published value for a remote point\nSo that I can work with multiple hosts\n\nwe need a new api in the interest service to retrieve the last value - it needs to be there because we need to tie the retrieval of the value to the permissions to access data. \n\nthe publish side is the impl of FeedUpdate/\n\nthis is for remote points only - see [https://<account>.atlassian.net/browse/AEN-959|https://<account>.atlassian.net/browse/AEN-959|smart-link] for local points\n\n\n\n* reuse what’s been done in iotic-core and link it to the gRPC server\n* treat interest as locally owned by a node (if a host spans multiple nodes) - so we don’t need to use Redis, it can be handled in Go, we could possibly use Redis as a buffer but it has perf. implications (connection to Redis over network vs. in-memory)\n* if a request comes from a network and the point is private, we should fail the response\n* if the same client makes the same request, they will be able to tie the response to the appropriate request and if the response to the second request comes before the response to the first request, the client can decide to ignore the first response.\n\n\n\n* do we need to consider latency over network? ({color:#ff5630}TBD{color})\n* do we need to inject sequence numbers to deal with ensuring correct order of delivering responses to clients? (use ClientRef?) ({color:#ff5630}TBD{color})\n… document that eventual consistency is responsibility of a client\n\n\n\nTo test this we need 2 hosts - scenario tests already have 4 hosts (using env var to specify number of hosts). We already have tests for local point describe and local get last published value in the scenario tests.",
+    "customfield_10097": null,
+    "customfield_10010": null,
+    "customfield_10099": null,
+    "customfield_10014": "FO-1921",
+    "customfield_10015": null,
+    "customfield_10005": null,
+    "customfield_10006": null,
+    "customfield_10007": null,
+    "security": null,
+    "customfield_10008": null,
+    "customfield_10009": null,
+    "attachment": [],
+    "flagged": false,
+    "summary": "Manage interests: Implement get last published value for a remote point",
+    "customfield_10080": null,
+    "customfield_10081": null,
+    "customfield_10082": null,
+    "customfield_10083": null,
+    "customfield_10085": null,
+    "customfield_10087": null,
+    "customfield_10088": null,
+    "customfield_10000": "{pullrequest={dataType=pullrequest, state=MERGED, stateCount=2}, json={\"cachedValue\":{\"errors\":[],\"summary\":{\"pullrequest\":{\"overall\":{\"count\":2,\"lastUpdated\":\"2021-03-10T10:17:34.000+0000\",\"stateCount\":2,\"state\":\"MERGED\",\"dataType\":\"pullrequest\",\"open\":false},\"byInstanceType\":{\"GitHub\":{\"count\":2,\"name\":\"GitHub\"}}}}},\"isStale\":true}}",
+    "customfield_10089": null,
+    "customfield_10001": {
+      "id": "64",
+      "title": "Iotics Foundation Team",
+      "isShared": true
+    },
+    "customfield_10002": null,
+    "customfield_10003": null,
+    "customfield_10004": null,
+    "environment": null,
+    "duedate": null,
+    "comment": {
+      "comments": [
+        {
+          "self": "https://<account>.atlassian.net/rest/api/2/issue/17736/comment/22210",
+          "id": "22210",
+          "author": {
+            "self": "https://<account>.atlassian.net/rest/api/2/user?accountId=5de4decccdc2d20d0537ed7e",
+            "accountId": "5de4decccdc2d20d0537ed7e",
+            "emailAddress": "super.dev@iotics.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/32"
+            },
+            "displayName": "Super Dev",
+            "active": true,
+            "timeZone": "Europe/London",
+            "accountType": "atlassian"
+          },
+          "body": "[~accountid:5de4decccdc2d20d0537ed7e] check with Mihai if this is required at this point - what’s the impact of not doing it in this sprint?",
+          "updateAuthor": {
+            "self": "https://<account>.atlassian.net/rest/api/2/user?accountId=5de4decccdc2d20d0537ed7e",
+            "accountId": "5de4decccdc2d20d0537ed7e",
+            "emailAddress": "super.dev@iotics.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/48",
+              "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/24",
+              "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/16",
+              "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5de4decccdc2d20d0537ed7e/03f26581-3776-4be3-b423-03eb5fa2e853/32"
+            },
+            "displayName": "Super Dev",
+            "active": true,
+            "timeZone": "Europe/London",
+            "accountType": "atlassian"
+          },
+          "created": "2020-10-21T14:58:09.168+0100",
+          "updated": "2020-10-21T14:58:09.168+0100",
+          "jsdPublic": true
+        }
+      ],
+      "self": "https://<account>.atlassian.net/rest/api/2/issue/17736/comment",
+      "maxResults": 1,
+      "total": 1,
+      "startAt": 0
+    }
+  }
+}

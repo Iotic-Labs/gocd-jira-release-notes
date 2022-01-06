@@ -37,29 +37,29 @@ func TestHandlerNotImplemented(t *testing.T) {
 }
 
 func readSampleGocdPipeline(t *testing.T) []byte {
-	filename := "./examples/gocd-pipeline-compare-long.json"
+	filename := "./sample-data/gocd-pipeline-compare-long.json"
 	json, err := os.ReadFile(filename)
 	if err != nil {
 		t.Errorf("could not read file: %s", err)
 	}
-	//fmt.Printf("Using mocked request/response: %s\n", filename)
+	fmt.Printf("Using mocked request/response: %s\n", filename)
 	return json
 }
 
 func extractKeyFromJiraURL(url string) string {
-	// e.g. https://<account>.atlassian.net/rest/agile/latest/issue/JI-1227
+	// e.g. https://<domain>.atlassian.net/rest/agile/latest/issue/JI-1227
 	parts := strings.Split(url, "/")
 	return parts[len(parts)-1]
 }
 
 func readSampleJira(t *testing.T, url string) []byte {
 	key := extractKeyFromJiraURL(url)
-	filename := fmt.Sprintf("./examples/jira-%s.json", key)
+	filename := fmt.Sprintf("./sample-data/jira-%s.json", key)
 	json, err := os.ReadFile(filename)
 	if err != nil {
 		t.Errorf("could not read file: %s", err)
 	}
-	//fmt.Printf("Using mocked request/response: %s\n", filename)
+	fmt.Printf("Using mocked request/response: %s\n", filename)
 	return json
 }
 
@@ -121,7 +121,7 @@ func TestHandlerEndToEndSuccess(t *testing.T) {
 
 	if useMockedResponse {
 		mockGet := func(req *http.Request) (*http.Response, error) {
-			//fmt.Printf("Test request for: %v\n", req.Host)
+			fmt.Printf("Test request for: %v\n", req.Host)
 			var json []byte
 			if strings.HasSuffix(cfg.GocdUrl, req.Host) {
 				json = readSampleGocdPipeline(t)
