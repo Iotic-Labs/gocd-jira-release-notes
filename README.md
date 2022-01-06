@@ -27,7 +27,7 @@ Remark: This whole orchestration would be possible in a bash script. It probably
 
 Steps:
 
-- This service runs as a _Function as a Service_ (using _OpenFaaS_) on our internal infrastructure.
+- This service runs as a _microservice_.
 - GoCD pipeline triggers this function, passing in a pipeline name and a pipeline counter; this function then:
 - Calls GoCD API to get the pipeline details (label aka version)
 - Calls GoCD API to get a comparison of the pipeline to the previous version of the pipeline (to get all changes/commits in this version)
