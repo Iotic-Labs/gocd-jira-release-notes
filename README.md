@@ -42,6 +42,7 @@ Steps:
 - GoCD API token
 - Jira/Confluence API token
 - Necessary permissions to read from GoCD and Jira and to write to Confluence
+- Valid `config.yaml`. See `config.yaml.sample` for an example.
 
 ## Secrets
 
@@ -50,7 +51,7 @@ There are two secrets which need to be set:
 - `gocdApikey`
 - `jiraApikey`
 
-During runtime, these can be read from a k8s/OpenFaaS secret, which should be automatically mounted as `/var/openfaas/secrets/<secret>`.
+During runtime, these can be read from a k8s/OpenFaaS secret, which should be automatically mounted as `/run/secrets/<secret>` (k8s) or `/var/openfaas/secrets/<secret>` (OpenFaaS).
 
 During development, please update a local `config.yaml` accordingly.
 
