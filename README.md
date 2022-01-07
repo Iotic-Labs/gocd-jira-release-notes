@@ -1,5 +1,12 @@
 # gocd-jira-release-notes
 
+[![GitHub Workflow](https://img.shields.io/github/workflow/status/Iotic-Labs/gocd-jira-release-notes/go)](https://github.com/Iotic-Labs/gocd-jira-release-notes/actions/workflows/go.yml)
+[![GitHub Issues](https://img.shields.io/github/issues/Iotic-Labs/gocd-jira-release-notes)](https://github.com/Iotic-Labs/gocd-jira-release-notes/issues)
+[![GitHub Release](https://img.shields.io/github/v/release/Iotic-Labs/gocd-jira-release-notes)](https://github.com/Iotic-Labs/gocd-jira-release-notes/releases)
+[![GitHub Go Mod version](https://img.shields.io/github/go-mod/go-version/Iotic-Labs/gocd-jira-release-notes)](https://github.com/Iotic-Labs/gocd-jira-release-notes/blob/main/go.mod)
+[![GitHub License](https://img.shields.io/github/license/Iotic-Labs/gocd-jira-release-notes)](https://github.com/Iotic-Labs/gocd-jira-release-notes/blob/main/LICENSE)
+[![GitHub Contributors](https://img.shields.io/github/contributors/Iotic-Labs/gocd-jira-release-notes)](https://github.com/Iotic-Labs/gocd-jira-release-notes)
+
 HTTP service which gets all commits from a GoCD pipeline build, finds Release Notes in related Jira issues and publishes the aggregated Release Notes as Blog posts in Confluence.
 
 ## Why
