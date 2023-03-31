@@ -1,5 +1,10 @@
 # gocd-jira-release-notes
 
+## NOTICE
+
+This application is no longer maintained and may be deleted without warning in
+the future.
+
 [![GitHub Workflow](https://img.shields.io/github/workflow/status/Iotic-Labs/gocd-jira-release-notes/go)](https://github.com/Iotic-Labs/gocd-jira-release-notes/actions/workflows/go.yml)
 [![GitHub Issues](https://img.shields.io/github/issues/Iotic-Labs/gocd-jira-release-notes)](https://github.com/Iotic-Labs/gocd-jira-release-notes/issues)
 [![GitHub Release](https://img.shields.io/github/v/release/Iotic-Labs/gocd-jira-release-notes)](https://github.com/Iotic-Labs/gocd-jira-release-notes/releases)
